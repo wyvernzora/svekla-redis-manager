@@ -189,7 +189,7 @@
     <Content Include="Libraries\ServiceStack.Text.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="G:\Downloads\ObjectListViewDemo\ObjectListView\ObjectListView2010.csproj">
+    <ProjectReference Include="..\ObjectListView\ObjectListView2010.csproj">
       <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
       <Name>ObjectListView2010</Name>
     </ProjectReference>
