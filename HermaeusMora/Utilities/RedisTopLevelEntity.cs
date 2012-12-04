@@ -31,7 +31,7 @@ namespace Svekla.Utilities
 
             if (type == "string")
                 return EntityType.String;
-            else if (type == "sortedset")
+            else if (type == "zset")
                 return EntityType.SortedSet;
             else if (type == "set")
                 return EntityType.Set;
