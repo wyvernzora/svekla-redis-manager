@@ -20,3 +20,14 @@ At this moment manager can connect to Redis databases and detect different types
 When connecting to a server for the first time, the program may require some time to pull key list and associated info. Well.. it may not even be "brief".. though I made a nice loading animation so it won't be boring. All the loaded data is cached locally so that after the first time it won't be necessary to pull data again. In the current version of the program local cache **is not maintained** so changes on the server side are not reflected locally unless going through the pull-data process again. I think that I will come up with a mechanism that will update information in the background without blocking any user operations.
 
 It is planned to support pretty much all Redis server commands, though no concrete plans have been established.
+
+# Attributions #
+
+## ServiceStack.Redis ##
+Parts of this software are based on [ServiceStack](http://www.servicestack.net/) project.
+
+## ObjectListView ##
+Parts of this software are based on [ObjectListView](http://objectlistview.sourceforge.net/cs/index.html) project.
+
+## Artwork ##
+All icons used within the software are made by me. Illustration on the connection screen by [たかりゃん](http://www.pixiv.net/member.php?id=865499). Illustrations used in loading indicator are by [はりぼて](http://www.pixiv.net/member.php?id=3145937).
