@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69DD6775-99ED-4C82-9C69-618EB1C25A64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Svekla</RootNamespace>
+    <AssemblyName>Svekla</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persistence\GlobalSettings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedisBrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedisBrowserForm.Designer.cs">
+      <DependentUpon>RedisBrowserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Locale.zh-CN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Locale.zh-CN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Locale.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Locale.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ComboBoxWM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\LoadingIndicator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\LoadingIndicator.Designer.cs">
+      <DependentUpon>LoadingIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\TextBoxWM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Nightingale\WizardState.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Nightingale\WizardStateManager.cs" />
+    <Compile Include="Utilities\RedisDatabaseCache.cs" />
+    <Compile Include="Utilities\RedisKeysDataSource.cs" />
+    <Compile Include="Utilities\RedisPoke.cs" />
+    <Compile Include="Utilities\RedisTopLevelEntity.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RedisBrowserForm.resx">
+      <DependentUpon>RedisBrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedisBrowserForm.zh-CN.resx">
+      <DependentUpon>RedisBrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Locale.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Locale.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Locale.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Locale.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libraries\ListViewPrinter.dll" />
+    <Content Include="Libraries\SparkleLibrary.dll" />
+    <None Include="Resources\Tile16.png" />
+    <None Include="Resources\ViewMode16.png" />
+    <None Include="Resources\View16.png" />
+    <None Include="Resources\Remove16.png" />
+    <None Include="Resources\LargeIcons.png" />
+    <None Include="Resources\Details16.png" />
+    <None Include="Resources\Add16.png" />
+    <None Include="Resources\News.ico" />
+    <None Include="Resources\Delete.ico" />
+    <None Include="Resources\hm_redis_connect.png" />
+    <None Include="Resources\Add.ico" />
+    <None Include="Resources\RedisHash16.png" />
+    <None Include="Resources\RedisList16.png" />
+    <None Include="Resources\RedisSet16.png" />
+    <None Include="Resources\RedisSortedSet16.png" />
+    <None Include="Resources\RedisString16.png" />
+    <None Include="Resources\LoadingAnimation.png" />
+    <None Include="Resources\RedisHash.png" />
+    <None Include="Resources\RedisList.png" />
+    <None Include="Resources\RedisSet.png" />
+    <None Include="Resources\RedisSortedSet.png" />
+    <None Include="Resources\RedisString.png" />
+    <Content Include="Libraries\ObjectListView.dll" />
+    <Content Include="Libraries\ServiceStack.Common.dll" />
+    <Content Include="Libraries\ServiceStack.dll" />
+    <Content Include="Libraries\ServiceStack.Interfaces.dll" />
+    <Content Include="Libraries\ServiceStack.OrmLite.dll" />
+    <Content Include="Libraries\ServiceStack.Redis.dll" />
+    <Content Include="Libraries\ServiceStack.ServiceInterface.dll" />
+    <Content Include="Libraries\ServiceStack.Text.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Downloads\ObjectListViewDemo\ObjectListView\ObjectListView2010.csproj">
+      <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
+      <Name>ObjectListView2010</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
