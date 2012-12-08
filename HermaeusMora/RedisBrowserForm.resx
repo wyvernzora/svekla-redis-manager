@@ -117,1476 +117,141 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>666, 25</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblConnectionError.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmMem.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="stringToolStripMenuItem.Text" xml:space="preserve">
-    <value>String</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="btnInitConnect.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;wsConnect.Type" xml:space="preserve">
-    <value>Svekla.UI.Nightingale.WizardState, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;stringToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hashToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="resource.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="&gt;&gt;btnInitConnect.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="olvcType.Width" type="System.Int32, mscorlib">
-    <value>120</value>
-  </data>
-  <data name="txtServerPassword.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;gbConnectInputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;smallImgList.Name" xml:space="preserve">
-    <value>smallImgList</value>
-  </data>
-  <data name="btnInitConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblLoadingProgressDetails.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="tabPage1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="listToolStripMenuItem.Text" xml:space="preserve">
-    <value>List</value>
-  </data>
-  <data name="gbConnectInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 417</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblSmDbSize.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="btnLoadingAbort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnInitConnect.Text" xml:space="preserve">
-    <value>Connect</value>
-  </data>
-  <data name="&gt;&gt;lblLoadingProgressDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;loadingIndicator1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnected.Name" xml:space="preserve">
-    <value>dbg_lblwsConnected</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Memory Usage (Current/Peak)</value>
-  </data>
-  <data name="&gt;&gt;olvKeys.Name" xml:space="preserve">
-    <value>olvKeys</value>
-  </data>
-  <data name="statusStrip1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pbConnectLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="groupBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;largeImgList.Name" xml:space="preserve">
-    <value>largeImgList</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBox1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="groupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="panel1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;listToolStripMenuItem.Name" xml:space="preserve">
-    <value>listToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;lblSmLastSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblConnectTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="largeIconsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Large Icons</value>
-  </data>
-  <data name="gbConnectInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="lblSmVersion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>585, 22</value>
-  </data>
-  <data name="lblSmVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 16</value>
-  </data>
-  <data name="&gt;&gt;olvKeys.Type" xml:space="preserve">
-    <value>BrightIdeasSoftware.VirtualObjectListView, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
-  </data>
-  <data name="txtServerPassword.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="groupBox3.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
-  </data>
-  <data name="lblSmDbSize.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmDbSize.Text" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cmbServerAddress.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;toolStripDropDownButton2.Name" xml:space="preserve">
-    <value>toolStripDropDownButton2</value>
-  </data>
-  <data name="lblSmMem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 16</value>
-  </data>
-  <data name="&gt;&gt;lblConnectionError.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLoadingAbort.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="wsConnect.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 72</value>
-  </data>
-  <data name="&gt;&gt;cmbServerAddress.Type" xml:space="preserve">
-    <value>Svekla.UI.Controls.CueComboBox, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 50</value>
-  </data>
-  <data name="&gt;&gt;txtServerPassword.Name" xml:space="preserve">
-    <value>txtServerPassword</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 26</value>
-  </data>
-  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="loadingIndicator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 256</value>
-  </data>
-  <data name="lblLoadingStatusTitle.Text" xml:space="preserve">
-    <value>Trying Hard to Load it Fast...</value>
-  </data>
-  <data name="lblConnectTitle.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="scRedisBrowserRoot.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;largeImgList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSmServerName.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="smallIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="btnCancelConnect.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label5.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;lblSmServerName.Name" xml:space="preserve">
-    <value>lblSmServerName</value>
-  </data>
-  <data name="btnInitConnect.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmServerName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="dbg_lblwsConnected.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="wsConnected.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="scRedisBrowserRoot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>666, 315</value>
-  </data>
-  <data name="wsConnected.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblSmClients.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;olvcType.Type" xml:space="preserve">
-    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Redis Server Version</value>
-  </data>
-  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="groupBox1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>RedisBrowserForm</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblLoadingProgressDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>465, 16</value>
-  </data>
-  <data name="smallIconsToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="dbg_lblwsConnected.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 419</value>
-  </data>
-  <data name="lblConnectTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblSmMem.Name" xml:space="preserve">
-    <value>lblSmMem</value>
-  </data>
-  <data name="lblConnectTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="smallIconsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Small Icons</value>
-  </data>
-  <data name="&gt;&gt;loadingIndicator1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblSmServerName.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
-    <value>toolStripButton1</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="scRedisBrowserRoot.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnected.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 22</value>
-  </data>
-  <data name="lblSmLastSave.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblSmVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmServerName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmVersion" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmDbSize" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label5" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmMem" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label7" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmLastSave" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label9" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmClients" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Absolute,28,Absolute,22,Absolute,22,Absolute,22,Absolute,22,Absolute,22" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="dbg_lblwsConnected.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnInitConnect.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblConnectionError.Text" xml:space="preserve">
-    <value>Error: (null)</value>
-  </data>
-  <data name="gbConnectInputs.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;sortedSetToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="sortedSetToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sorted Set</value>
-  </data>
-  <data name="&gt;&gt;cmbServerAddress.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="olvKeys.Size" type="System.Drawing.Size, System.Drawing">
-    <value>654, 254</value>
-  </data>
-  <data name="lblSmServerName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblLoadingStatusTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>680, 395</value>
-  </data>
-  <data name="sortedSetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt</value>
-  </data>
-  <data name="lblLoadingStatusTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>556, 32</value>
-  </data>
-  <data name="panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmServerName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 14pt, style=Bold</value>
-  </data>
-  <data name="olvKeys.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="loadingIndicator1.Text" xml:space="preserve">
-    <value>loadingIndicator</value>
-  </data>
-  <data name="lblConnectionError.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;lblConnectionError.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="tableLayoutPanel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="groupBox2.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="wsLoading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblSmMem.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="dbg_lblwsConnect.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="scRedisBrowserRoot.SplitterDistance" type="System.Int32, mscorlib">
-    <value>410</value>
-  </data>
-  <data name="toolStripDropDownButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 22</value>
-  </data>
-  <data name="&gt;&gt;lblConnectTitle.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="lblLoadingProgressDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pbConnectLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label7.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblConnectTitle.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>wsConnected</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 140</value>
-  </data>
-  <data name="groupBox3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lblSmMem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblSmLastSave.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblSmVersion.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="detailsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Details</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="lblConnectionError.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnLoadingAbort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 348</value>
-  </data>
-  <data name="&gt;&gt;setToolStripMenuItem.Name" xml:space="preserve">
-    <value>setToolStripMenuItem</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 16</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
+  <metadata name="largeImgList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>302, 17</value>
+  </metadata>
   <data name="largeImgList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAY
-        GwAAAk1TRnQBSQFMAgEBBQIAAQIBCAECATABAAEwAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
-        AcADAAFgAwABAQEAAQgGAAFIGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
-        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
-        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
-        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
-        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
-        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
-        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
-        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
-        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
-        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
-        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
-        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
-        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
-        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
-        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
-        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
-        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
-        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
-        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
-        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
-        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
-        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
-        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
-        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
-        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
-        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
-        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
-        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA///AIUADP8SAAz/ogAB/x0A
-        Af+hAAH/CAAB7BQAAf+hAAH/BwAB7AEAAewTAAH/oQAB/wYAAfcDAAH3EgAB/6EAAf8FAAHsBQAB7BEA
-        Af+hAAH/BAAB7AcAAewQAAH/mwAB/wkAAfcJAAH3DwAB/5sAAf8IAAHsCwAB7A4AAf+bAAH/BwAB7A0A
-        AewNAAH/mwAB/wYAAfcPAAH3DAAB/5sAAf8FAAHsEQAB7AsAAf+bAAH/BAAB7BMAAewKAAH/mwAB/wMA
-        AfcVAAH3CQAB/5sAAf8CAAHsFwAB7AgAAf+bAAH/AQAB7BkAAewHAAH/mwAB/xEAAf8RAAH/mwAB/xEA
-        Af8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEA
-        Af8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEA
-        Af8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEA
-        Af8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAB/xEAAf8RAAH/mwAG/wwAAf8FAAb/BgAB/6EA
-        Af8LAAH/EQAB/6EAAf8LAAH/EQAB/6EAAf8LAAH/EQAB/6EAAf8LAAH/EQAB/6EAAf8LAAH/EQAB/6EA
-        Af8LAAH/EQAB//8A/wD/AP8AiwAB7AkAAf8BAAHsFwAB8QEAAfECAAHsAgAB8SwAAewEAAz/AwAM/wMA
-        DP84AAHsCQAB/wEAAewXAAHxAQAB8QIAAewCAAHxLAAB7BAAAf8OAAH/DgAB/zcAAewJAAH/AQAB7BcA
-        AfEBAAHxAgAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/NwAB7AkAAf8BAAHsFwAB8QEAAfECAAHsAgAB8SwA
-        AewQAAH/DgAB/w4AAf8GAAHyAvEB8wMAAfMC8QHyCQAE8Q0AAfQE8QHzBgAB7AkAAf8BAAHsFwAB8QEA
-        AfECAAHsAgAB8SwAAewQAAH/DgAB/w4AAf8GAAHsAgAB6gH0AgAB7AIAAUMB/wwAAfMMAAGSBAAB7wYA
-        AewJAAH/AQAB7BcAAfEBAAHxAgAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/BgAB8QIAAQ4B8QIAAewDAAH/
-        DAAB7AwAAewEAAH0cAAB/w4AAf8OAAH/BgAB8QMAAfECAAHsAwAB/wgAAfIDAAHrAf8KAAHzAUMLAAHz
-        CfECAAHzB/EBAAHzE/EB8wIAAfQs8QHzCgAB/xQAAf8OAAH/BgAB8QMAAfECAAEHAwAB8wwAARUB8woA
-        AfEEAAH3BwAB7AkAAf8BAAHsCAAB7BMAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wYAAfMBEQIAAe8B/wUA
-        AW0JAAEUAwAB8QoAAfEEAAH/BwAB7AkAAf8BAAHsCAAB7BMAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wcA
-        AewCAAEUAf8PAAHxAwABBwoAARADAAEQAf8HAAHsCQAB/wEAAewIAAHsEwAB7AIAAfEsAAHsCgAB/xQA
-        Af8OAAH/BwAB7AMAAf8PAAHxAwABFQH/DQABBwgAAewJAAH/AQAB7AgAAewTAAHsAgAB8SwAAewKAAH/
-        FAAB/w4AAf8HAAHsAwAB/wIAAeoDAAH0CAAB9AESEQAB8QgAAewJAAH/AQAB7AgAAewTAAHsAgAB8SwA
-        AewKAAH/FAAB/w4AAf8HAAEHAwAB9AIAAfMDAAEHCQAB7BAAARAB8ggAAQcJ7AH/AQABBwfsAQABBxPs
-        AQcCAAHzLOwBBwoAAf8jAAH/BwAB/wMAARMGAAHsCQABBxAAAesB/2wAAf8jAAH/AwAB9AESEgAB/xUA
-        AewJAAHsCQAB/wEAAewcAAHsAgAB8SwAAewKAAH/CAAM/w8AAf8DAAH0AW0SAAHzBQABDgMAAUMG7AFD
-        BAAB8wkAAewJAAH/AQAB7BwAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wQAAewSAAFtBQABBwMAAewFAAH0
-        AeoOAAHsCQAB/wEAAewcAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8EAAHsHAAB7AUAAfEEAAFDCgAB7AkA
-        Af8BAAHsHAAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/BAABBwTsAwABQwLsAeoDAAHqBOwGAAFDAgABDgHx
-        BAAB8QQAAfQKAAHsCQAB/wEAAewcAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8MAAHsAgAB8QEOAgAB7wH/
-        CQABBwMAAfEEAAHsBAAB/woAAewJAAH/AQAB7BwAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wkAARQCAAHs
-        AwAB7AIAAW0B/wkAAfEDAAHsAf8HAAGSAf9uAAH/FAAB/w4AAf8JAAHxAgABEAHyAgAB7AMAAf8JAAH0
-        ARMDAAH/AgAB9AQAAfELAAHzCfECAAHzEvEBAAH0CPEB8wIAAfQs8QHzCgAB/xQAAf8OAAH/CQAB8QMA
-        AfECAAHsAwAB/woAAewDAAH0AgABEgMAAQ8B8gsAAewJAAH/AQAB7BIAAf8B8QgAAewCAAHxLAAB7AoA
-        Af8UAAH/DgAB/wkAAfEDAAHxAgAB7AMAAf8KAAHsAwABEQYAAewMAAHsCQAB/wEAAewSAAH/AfEIAAHs
-        AgAB8SwAAewKAAH/FAAB/w4AAf8GAAPxAfcDAAH3AvEB7wMAAe0D8QHzBgAB9AUAAfQEAAHsDAAB7AkA
-        Af8BAAHsEgAB/wHxCAAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/GAABbQH0CgAB8wGSBAAB8AwAAewJAAH/
-        AQAB7BIAAf8B8QgAAewCAAHxLAAB7AoAAf8UAAH/DgAB/xgAAREB8gYAAfADAALsEQAB7AkAAf8BAAHs
-        EgAB/wHxCAAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/GQAB8QoAAhUDAAEUDQABBwnsAf8BAAEHEuwB/wHz
-        COwBBwIAAfMs7AEHCgAB/yMAAf8ZAAHxBwABEAcAAfNxAAH/IwAB/woAAfQDAAETBgAB7AsAAfEHAAH/
-        DQAB7AkAAf8BAAHsCwAB8RAAAewCAAHxLAAB7AoAAf8IAAz/DwAB/w4AAQ4GAAHsCwAB8QYAAewB/w0A
-        AewJAAH/AQAB7AsAAfEQAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8SAAEUAgABbQH0CgAB8wEVBQAB8Q4A
-        AewJAAH/AQAB7AsAAfEQAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8LAAHqAwAB/wIAAfECAAFDAfMLAAHs
-        BQAB8Q4AAewJAAH/AQAB7AsAAfEQAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8LAAH0AwABBwIAAfEDAAHx
-        CwAB9wQAAW0B9A4AAewJAAH/AQAB7AsAAfEQAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8PAAHsAgAB8QMA
-        AfELAAH0BAAB7A8AAewJAAH/AQAB7AsAAfEQAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8PAAHsAgAB8gEP
-        AgAB7wH/gwAG/w8AAf8CAAb/BgAB/wwAAUMCAAHrAf8BAAH0AW0CAAESAf8bAAH0LPEB8wIAAfQs8QHz
-        EAAB/w4AAf8OAAH/DAAB9wIAAREB8wIAAewDAAH/GwAB8SwAAewCAAHxLAAB7BAAAf8OAAH/DgAB/wwA
-        AfEDAAHxAgAB7AMAAf8bAAHxLAAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/DAAB8wPsAfMCAAG8A+wB/xsA
-        AfEsAAHsAgAB8SwAAewQAAH/DgAB/w4AAf8zAAHxLAAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/MwAB8SwA
-        AewCAAHxLAAB7BAAAf8OAAH/DgAB/zMAAfMs7AEHAgAB8yzsAQf/ALIAAUIBTQE+BwABPgMAASgDAAHA
-        AwABYAMAAQEBAAEBBgABCRYAA/8BAAb/EgAG/xIAAeABAQL/AYABBxIAAeABAAL/AYABAxIAAeABAAH/
-        AX8BgAEDEgAB4AEAAf4BPwGAAQMSAAHgAQAB/AEfAYABAxIAAeABAAH4AQ8BgAEDEgAB4AEAAfABBwGA
-        AQMSAAHgAT8B4AEDAf4BAxIAAeABPwHAAQEB/gEDEgAB4AE/AYABAAH+AQMSAAHgAT8CAAF+AQMSAAHg
-        AT4CAAE+AQMSAAHgATwCAAEeAQMSAAHgATgCAAEOAQMSAAHgATACAAEGAQMSAAHgASACAAECAQMSAAHg
-        AT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4
-        AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+
-        AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIA
+        GwAAAk1TRnQBSQFMAgEBBQEAAWABAgFgAQIBMAEAATABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABwAMAAWADAAEBAQABCAYAAUgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8AhQAM/xIADP+iAAH/
+        HQAB/6EAAf8IAAHsFAAB/6EAAf8HAAHsAQAB7BMAAf+hAAH/BgAB9wMAAfcSAAH/oQAB/wUAAewFAAHs
+        EQAB/6EAAf8EAAHsBwAB7BAAAf+bAAH/CQAB9wkAAfcPAAH/mwAB/wgAAewLAAHsDgAB/5sAAf8HAAHs
+        DQAB7A0AAf+bAAH/BgAB9w8AAfcMAAH/mwAB/wUAAewRAAHsCwAB/5sAAf8EAAHsEwAB7AoAAf+bAAH/
+        AwAB9xUAAfcJAAH/mwAB/wIAAewXAAHsCAAB/5sAAf8BAAHsGQAB7AcAAf+bAAH/EQAB/xEAAf+bAAH/
+        EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/
+        EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/
+        EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/
+        EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAH/EQAB/xEAAf+bAAb/DAAB/wUABv8GAAH/
+        oQAB/wsAAf8RAAH/oQAB/wsAAf8RAAH/oQAB/wsAAf8RAAH/oQAB/wsAAf8RAAH/oQAB/wsAAf8RAAH/
+        oQAB/wsAAf8RAAH//wD/AP8A/wCLAAHsCQAB/wEAAewXAAHxAQAB8QIAAewCAAHxLAAB7AQADP8DAAz/
+        AwAM/zgAAewJAAH/AQAB7BcAAfEBAAHxAgAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/NwAB7AkAAf8BAAHs
+        FwAB8QEAAfECAAHsAgAB8SwAAewQAAH/DgAB/w4AAf83AAHsCQAB/wEAAewXAAHxAQAB8QIAAewCAAHx
+        LAAB7BAAAf8OAAH/DgAB/wYAAfIC8QHzAwAB8wLxAfIJAATxDQAB9ATxAfMGAAHsCQAB/wEAAewXAAHx
+        AQAB8QIAAewCAAHxLAAB7BAAAf8OAAH/DgAB/wYAAewCAAHqAfQCAAHsAgABQwH/DAAB8wwAAZIEAAHv
+        BgAB7AkAAf8BAAHsFwAB8QEAAfECAAHsAgAB8SwAAewQAAH/DgAB/w4AAf8GAAHxAgABDgHxAgAB7AMA
+        Af8MAAHsDAAB7AQAAfRwAAH/DgAB/w4AAf8GAAHxAwAB8QIAAewDAAH/CAAB8gMAAesB/woAAfMBQwsA
+        AfMJ8QIAAfMH8QEAAfMT8QHzAgAB9CzxAfMKAAH/FAAB/w4AAf8GAAHxAwAB8QIAAQcDAAHzDAABFQHz
+        CgAB8QQAAfcHAAHsCQAB/wEAAewIAAHsEwAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/BgAB8wERAgAB7wH/
+        BQABbQkAARQDAAHxCgAB8QQAAf8HAAHsCQAB/wEAAewIAAHsEwAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/
+        BwAB7AIAARQB/w8AAfEDAAEHCgABEAMAARAB/wcAAewJAAH/AQAB7AgAAewTAAHsAgAB8SwAAewKAAH/
+        FAAB/w4AAf8HAAHsAwAB/w8AAfEDAAEVAf8NAAEHCAAB7AkAAf8BAAHsCAAB7BMAAewCAAHxLAAB7AoA
+        Af8UAAH/DgAB/wcAAewDAAH/AgAB6gMAAfQIAAH0ARIRAAHxCAAB7AkAAf8BAAHsCAAB7BMAAewCAAHx
+        LAAB7AoAAf8UAAH/DgAB/wcAAQcDAAH0AgAB8wMAAQcJAAHsEAABEAHyCAABBwnsAf8BAAEHB+wBAAEH
+        E+wBBwIAAfMs7AEHCgAB/yMAAf8HAAH/AwABEwYAAewJAAEHEAAB6wH/bAAB/yMAAf8DAAH0ARISAAH/
+        FQAB7AkAAewJAAH/AQAB7BwAAewCAAHxLAAB7AoAAf8IAAz/DwAB/wMAAfQBbRIAAfMFAAEOAwABQwbs
+        AUMEAAHzCQAB7AkAAf8BAAHsHAAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/BAAB7BIAAW0FAAEHAwAB7AUA
+        AfQB6g4AAewJAAH/AQAB7BwAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wQAAewcAAHsBQAB8QQAAUMKAAHs
+        CQAB/wEAAewcAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8EAAEHBOwDAAFDAuwB6gMAAeoE7AYAAUMCAAEO
+        AfEEAAHxBAAB9AoAAewJAAH/AQAB7BwAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wwAAewCAAHxAQ4CAAHv
+        Af8JAAEHAwAB8QQAAewEAAH/CgAB7AkAAf8BAAHsHAAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/CQABFAIA
+        AewDAAHsAgABbQH/CQAB8QMAAewB/wcAAZIB/24AAf8UAAH/DgAB/wkAAfECAAEQAfICAAHsAwAB/wkA
+        AfQBEwMAAf8CAAH0BAAB8QsAAfMJ8QIAAfMS8QEAAfQI8QHzAgAB9CzxAfMKAAH/FAAB/w4AAf8JAAHx
+        AwAB8QIAAewDAAH/CgAB7AMAAfQCAAESAwABDwHyCwAB7AkAAf8BAAHsEgAB/wHxCAAB7AIAAfEsAAHs
+        CgAB/xQAAf8OAAH/CQAB8QMAAfECAAHsAwAB/woAAewDAAERBgAB7AwAAewJAAH/AQAB7BIAAf8B8QgA
+        AewCAAHxLAAB7AoAAf8UAAH/DgAB/wYAA/EB9wMAAfcC8QHvAwAB7QPxAfMGAAH0BQAB9AQAAewMAAHs
+        CQAB/wEAAewSAAH/AfEIAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8YAAFtAfQKAAHzAZIEAAHwDAAB7AkA
+        Af8BAAHsEgAB/wHxCAAB7AIAAfEsAAHsCgAB/xQAAf8OAAH/GAABEQHyBgAB8AMAAuwRAAHsCQAB/wEA
+        AewSAAH/AfEIAAHsAgAB8SwAAewKAAH/FAAB/w4AAf8ZAAHxCgACFQMAARQNAAEHCewB/wEAAQcS7AH/
+        AfMI7AEHAgAB8yzsAQcKAAH/IwAB/xkAAfEHAAEQBwAB83EAAf8jAAH/CgAB9AMAARMGAAHsCwAB8QcA
+        Af8NAAHsCQAB/wEAAewLAAHxEAAB7AIAAfEsAAHsCgAB/wgADP8PAAH/DgABDgYAAewLAAHxBgAB7AH/
+        DQAB7AkAAf8BAAHsCwAB8RAAAewCAAHxLAAB7AoAAf8UAAH/DgAB/xIAARQCAAFtAfQKAAHzARUFAAHx
+        DgAB7AkAAf8BAAHsCwAB8RAAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wsAAeoDAAH/AgAB8QIAAUMB8wsA
+        AewFAAHxDgAB7AkAAf8BAAHsCwAB8RAAAewCAAHxLAAB7AoAAf8UAAH/DgAB/wsAAfQDAAEHAgAB8QMA
+        AfELAAH3BAABbQH0DgAB7AkAAf8BAAHsCwAB8RAAAewCAAHxLAAB7AoAAf8UAAH/DgAB/w8AAewCAAHx
+        AwAB8QsAAfQEAAHsDwAB7AkAAf8BAAHsCwAB8RAAAewCAAHxLAAB7AoAAf8UAAH/DgAB/w8AAewCAAHy
+        AQ8CAAHvAf+DAAb/DwAB/wIABv8GAAH/DAABQwIAAesB/wEAAfQBbQIAARIB/xsAAfQs8QHzAgAB9Czx
+        AfMQAAH/DgAB/w4AAf8MAAH3AgABEQHzAgAB7AMAAf8bAAHxLAAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/
+        DAAB8QMAAfECAAHsAwAB/xsAAfEsAAHsAgAB8SwAAewQAAH/DgAB/w4AAf8MAAHzA+wB8wIAAbwD7AH/
+        GwAB8SwAAewCAAHxLAAB7BAAAf8OAAH/DgAB/zMAAfEsAAHsAgAB8SwAAewQAAH/DgAB/w4AAf8zAAHx
+        LAAB7AIAAfEsAAHsEAAB/w4AAf8OAAH/MwAB8yzsAQcCAAHzLOwBB/8AsgABQgFNAT4HAAE+AwABKAMA
+        AcADAAFgAwABAQEAAQEGAAEJFgAD/wEABv8SAAb/EgAB4AEBAv8BgAEHEgAB4AEAAv8BgAEDEgAB4AEA
+        Af8BfwGAAQMSAAHgAQAB/gE/AYABAxIAAeABAAH8AR8BgAEDEgAB4AEAAfgBDwGAAQMSAAHgAQAB8AEH
+        AYABAxIAAeABPwHgAQMB/gEDEgAB4AE/AcABAQH+AQMSAAHgAT8BgAEAAf4BAxIAAeABPwIAAX4BAxIA
+        AeABPgIAAT4BAxIAAeABPAIAAR4BAxIAAeABOAIAAQ4BAxIAAeABMAIAAQYBAxIAAeABIAIAAQIBAxIA
         AeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/
-        AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AEBAfgBDwGAAQMSAAHgAQAB+AEP
-        AYABAxIAAeABAAH4AQ8BgAEDEgAB4AEAAfgBDwGAAQMSAAHgAQAB+AEPAYABAxIAAeABAAH4AQ8BgAED
-        EgAB4AEAAfgBDwGAAQMSAAb/EgAG/xIABv8SADb/AfgBAAGAAgABIQGABAABAQHgAQEBwAEDAYABBwb/
-        AfgBAAGAAgABIQGABAABAQHgAQABwAEBAYABAwb/AfgBAAGAAgABIQGABAABAQHgAQABwAEBAYABAwb/
-        AfgBAAGAAgABIQGABAABAQHgAQABwAEBAYABAwHwAeEB/wEPAf8BgQH4AQABgAIAASEBgAQAAQEB4AEA
-        AcABAQGAAQMB8AFgAf8BBwH/AYEB+AEAAYACAAEhAYAEAAEBAeABAAHAAQEBgAEDAfABYAH/AQcB/wGB
-        DP8B4AEAAcABAQGAAQMB8AFgAf8BAwH/AQMB+AEBAYABQAEAAQEBgAQAAQEB4AE/AcABAQH+AQMB8AFg
-        Af8BgwH/AQMB+AEAAYABQAEAAQEBgAQAAQEB4AE/AcABAQH+AQMB8AEwAf8BgwH/AQMB+AEAAYABQAEA
-        AQEBgAQAAQEB4AE/AcABAQH+AQMB+AEwAf8BgwH/AQMB+AEAAYABQAEAAQEBgAQAAQEB4AE/AcABAQH+
-        AQMB+AEwAf8BgQH/AQcB+AEAAYABQAEAAQEBgAQAAQEB4AE/AcABAQH+AQMB+AEwAX8BgAEAAQcB+AEA
-        AYABQAEAAQEBgAQAAQEB4AE/AcABAQH+AQMB+AEwAX8BwAEAAQcB+AEAAYABQAEAAQEBgAQAAQEB4AE/
-        Av8B/gEDAfgBOAF/AcABAAEHDP8B4AE/Av8B/gEDAYABAAEDAeABAAEPAfgBAAGAAgABAQGABAABAQHg
-        AT8BwAEDAf4BAwGAAQABAwHgAQABDwH4AQABgAIAAQEBgAQAAQEB4AE/AcABAQH+AQMBwAEAAQMB4AH4
-        AR8B+AEAAYACAAEBAYAEAAEBAeABPwHAAQEB/gEDAcABAAEDAfAB+AEfAfgBAAGAAgABAQGABAABAQHg
-        AT8BwAEBAf4BAwHAAQABAwHwAXgBHwH4AQABgAIAAQEBgAQAAQEB4AE/AcABAQH+AQMB/gEYAR8B8AF4
-        AR8B+AEAAYACAAEBAYAEAAEBAeABPwHAAQEB/gEDAf4BHAEfAfABOAEfDP8B4AE/AcABAQH+AQMB/gEM
-        AR8B8AEwAT8B+AEBAYABAAEIAQEBgAQAAQEB4AE/AcABAQH+AQMB/gEMAR8B+AEwAT8B+AEAAYACAAEB
-        AYAEAAEBAeABPwHAAQEB/gEDAf4BDAEfAfgBMAF/AfgBAAGAAgABAQGABAABAQHgAT8BwAEBAf4BAwHw
-        AQABAQH4ASABfwH4AQABgAIAAQEBgAQAAQEB4AE/AcABAQH+AQMB8AIAAfwBAAF/AfgBAAGAAgABAQGA
-        BAABAQHgAT8BwAEBAf4BAwHwAgAB/AEAAf8B+AEAAYACAAEBAYAEAAEBAeABPwHAAQEB/gEDAfACAAH+
-        AQAB/wH4AQABgAIAAQEBgAQAAQEB4AE/Av8B/gEDAfACAAH+AQAN/wHgAT8C/wH+AQMB/wEHAQ8B/gEA
-        Af8B+AEAAYABAgEAAQEBgAQAAQEB4AE/AcABAwH+AQMB/wGHAQ8B/gEAAf8B+AEAAYABAgEAAQEBgAQA
-        AQEB4AE/AcABAQH+AQMB/wGHAQcB/gEBAf8B+AEAAYABAgEAAQEBgAQAAQEB4AE/AcABAQH+AQMB/wGD
-        AQcB/wEBAf8B+AEAAYABAgEAAQEBgAQAAQEB4AE/AcABAQH+AQMB/wGDAQcB/wEBAf8B+AEAAYABAgEA
-        AQEBgAQAAQEB4AE/AcABAQH+AQMB/wHDAQcB/wEDAf8B+AEAAYABAgEAAQEBgAQAAQEB4AE/AcABAQH+
-        AQMB/wHDAQMP/wHgAQEBwAEBAYABAwH/AcEBAwP/AYAEAAEBAYAEAAEBAeABAAHAAQEBgAEDAf8BwQGD
-        A/8BgAQAAQEBgAQAAQEB4AEAAcABAQGAAQMB/wHBAYMD/wGABAABAQGABAABAQHgAQABwAEBAYABAwH/
-        AcEBgwP/AYAEAAEBAYAEAAEBAeABAAHAAQEBgAEDBv8BgAQAAQEBgAQAAQEB4AEAAcABAQGAAQMG/wGA
-        BAABAQGABAABAQHgAQABwAEBAYABAwb/AYAEAAEBAYAEAAEBNv8WAAs=
+        AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEP
+        Af4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gED
+        EgAB4AE/AfgBDwH+AQMSAAHgAT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHg
+        AT8B+AEPAf4BAxIAAeABPwH4AQ8B/gEDEgAB4AE/AfgBDwH+AQMSAAHgAQEB+AEPAYABAxIAAeABAAH4
+        AQ8BgAEDEgAB4AEAAfgBDwGAAQMSAAHgAQAB+AEPAYABAxIAAeABAAH4AQ8BgAEDEgAB4AEAAfgBDwGA
+        AQMSAAHgAQAB+AEPAYABAxIABv8SAAb/EgAG/xIANv8B+AEAAYACAAEhAYAEAAEBAeABAQHAAQMBgAEH
+        Bv8B+AEAAYACAAEhAYAEAAEBAeABAAHAAQEBgAEDBv8B+AEAAYACAAEhAYAEAAEBAeABAAHAAQEBgAED
+        Bv8B+AEAAYACAAEhAYAEAAEBAeABAAHAAQEBgAEDAfAB4QH/AQ8B/wGBAfgBAAGAAgABIQGABAABAQHg
+        AQABwAEBAYABAwHwAWAB/wEHAf8BgQH4AQABgAIAASEBgAQAAQEB4AEAAcABAQGAAQMB8AFgAf8BBwH/
+        AYEM/wHgAQABwAEBAYABAwHwAWAB/wEDAf8BAwH4AQEBgAFAAQABAQGABAABAQHgAT8BwAEBAf4BAwHw
+        AWAB/wGDAf8BAwH4AQABgAFAAQABAQGABAABAQHgAT8BwAEBAf4BAwHwATAB/wGDAf8BAwH4AQABgAFA
+        AQABAQGABAABAQHgAT8BwAEBAf4BAwH4ATAB/wGDAf8BAwH4AQABgAFAAQABAQGABAABAQHgAT8BwAEB
+        Af4BAwH4ATAB/wGBAf8BBwH4AQABgAFAAQABAQGABAABAQHgAT8BwAEBAf4BAwH4ATABfwGAAQABBwH4
+        AQABgAFAAQABAQGABAABAQHgAT8BwAEBAf4BAwH4ATABfwHAAQABBwH4AQABgAFAAQABAQGABAABAQHg
+        AT8C/wH+AQMB+AE4AX8BwAEAAQcM/wHgAT8C/wH+AQMBgAEAAQMB4AEAAQ8B+AEAAYACAAEBAYAEAAEB
+        AeABPwHAAQMB/gEDAYABAAEDAeABAAEPAfgBAAGAAgABAQGABAABAQHgAT8BwAEBAf4BAwHAAQABAwHg
+        AfgBHwH4AQABgAIAAQEBgAQAAQEB4AE/AcABAQH+AQMBwAEAAQMB8AH4AR8B+AEAAYACAAEBAYAEAAEB
+        AeABPwHAAQEB/gEDAcABAAEDAfABeAEfAfgBAAGAAgABAQGABAABAQHgAT8BwAEBAf4BAwH+ARgBHwHw
+        AXgBHwH4AQABgAIAAQEBgAQAAQEB4AE/AcABAQH+AQMB/gEcAR8B8AE4AR8M/wHgAT8BwAEBAf4BAwH+
+        AQwBHwHwATABPwH4AQEBgAEAAQgBAQGABAABAQHgAT8BwAEBAf4BAwH+AQwBHwH4ATABPwH4AQABgAIA
+        AQEBgAQAAQEB4AE/AcABAQH+AQMB/gEMAR8B+AEwAX8B+AEAAYACAAEBAYAEAAEBAeABPwHAAQEB/gED
+        AfABAAEBAfgBIAF/AfgBAAGAAgABAQGABAABAQHgAT8BwAEBAf4BAwHwAgAB/AEAAX8B+AEAAYACAAEB
+        AYAEAAEBAeABPwHAAQEB/gEDAfACAAH8AQAB/wH4AQABgAIAAQEBgAQAAQEB4AE/AcABAQH+AQMB8AIA
+        Af4BAAH/AfgBAAGAAgABAQGABAABAQHgAT8C/wH+AQMB8AIAAf4BAA3/AeABPwL/Af4BAwH/AQcBDwH+
+        AQAB/wH4AQABgAECAQABAQGABAABAQHgAT8BwAEDAf4BAwH/AYcBDwH+AQAB/wH4AQABgAECAQABAQGA
+        BAABAQHgAT8BwAEBAf4BAwH/AYcBBwH+AQEB/wH4AQABgAECAQABAQGABAABAQHgAT8BwAEBAf4BAwH/
+        AYMBBwH/AQEB/wH4AQABgAECAQABAQGABAABAQHgAT8BwAEBAf4BAwH/AYMBBwH/AQEB/wH4AQABgAEC
+        AQABAQGABAABAQHgAT8BwAEBAf4BAwH/AcMBBwH/AQMB/wH4AQABgAECAQABAQGABAABAQHgAT8BwAEB
+        Af4BAwH/AcMBAw//AeABAQHAAQEBgAEDAf8BwQEDA/8BgAQAAQEBgAQAAQEB4AEAAcABAQGAAQMB/wHB
+        AYMD/wGABAABAQGABAABAQHgAQABwAEBAYABAwH/AcEBgwP/AYAEAAEBAYAEAAEBAeABAAHAAQEBgAED
+        Af8BwQGDA/8BgAQAAQEBgAQAAQEB4AEAAcABAQGAAQMG/wGABAABAQGABAABAQHgAQABwAEBAYABAwb/
+        AYAEAAEBAYAEAAEBAeABAAHAAQEBgAEDBv8BgAQAAQEBgAQAAQE2/ws=
 </value>
   </data>
-  <data name="lblSmServerName.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSmMem.Text" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;wsConnect.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="dbg_lblwsConnect.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pbLoadingProgress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="olvKeys.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 54</value>
-  </data>
-  <data name="&gt;&gt;wsConnect.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblLoadingStatusTitle.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="dbg_lblwsConnected.Text" xml:space="preserve">
-    <value>wsConnected</value>
-  </data>
-  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
-    <value>Add Item</value>
-  </data>
-  <data name="dbg_lblwsConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>620, 11</value>
-  </data>
-  <data name="lblConnectionError.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblConnectionError.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="dbg_lblwsConnected.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="btnLoadingAbort.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnCancelConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 384</value>
-  </data>
-  <data name="lblSmLastSave.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 28</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lblConnectTitle.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="groupBox3.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblSmClients.Name" xml:space="preserve">
-    <value>lblSmClients</value>
-  </data>
-  <data name="&gt;&gt;pbLoadingProgress.Name" xml:space="preserve">
-    <value>pbLoadingProgress</value>
-  </data>
-  <data name="&gt;&gt;smallImgList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>704, 22</value>
-  </data>
-  <data name="pbConnectLogo.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Connect to Redis Server</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;gbConnectInputs.Name" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="&gt;&gt;btnLoadingAbort.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 315</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 16</value>
-  </data>
-  <data name="&gt;&gt;lblSmClients.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 32</value>
-  </data>
-  <data name="olvKeys.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lblSmServerName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblSmLastSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 16</value>
-  </data>
-  <data name="txtServerPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 338</value>
-  </data>
-  <data name="&gt;&gt;lblSmDbSize.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="lblSmVersion.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblSmServerName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>517, 139</value>
-  </data>
-  <data name="txtServerPassword.CueText" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="label5.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblConnectionError.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 14</value>
-  </data>
-  <data name="&gt;&gt;toolStripDropDownButton1.Name" xml:space="preserve">
-    <value>toolStripDropDownButton1</value>
-  </data>
-  <data name="lblSmClients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label5.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="wsLoading.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="setToolStripMenuItem.Text" xml:space="preserve">
-    <value>Set</value>
-  </data>
-  <data name="hashToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hash</value>
-  </data>
-  <data name="loadingIndicator1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cueTextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="panel1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cueTextBox1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnLoadingAbort.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Database Size</value>
-  </data>
-  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;olvKeys.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;wsLoading.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="cmbServerAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 306</value>
-  </data>
-  <data name="dbg_lblwsConnected.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gbConnectInputs.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblSmClients.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pbConnectLogo.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 16</value>
-  </data>
-  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="label1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gbConnectInputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 12</value>
-  </data>
-  <data name="lblConnectionError.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 365</value>
-  </data>
-  <data name="cueTextBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;wsConnect.Name" xml:space="preserve">
-    <value>wsConnect</value>
-  </data>
-  <data name="&gt;&gt;olvKeys.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dbg_lblwsConnect.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="toolStripDropDownButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="lblSmClients.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 16</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 149</value>
-  </data>
-  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="btnCancelConnect.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="olvcTTL.Text" xml:space="preserve">
-    <value>Expiration</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 94</value>
-  </data>
-  <data name="lblSmMem.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmMem.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="pbConnectLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 250</value>
-  </data>
-  <data name="&gt;&gt;wsLoading.Name" xml:space="preserve">
-    <value>wsLoading</value>
-  </data>
-  <data name="dbg_lblwsConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>704, 441</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>wsLoading</value>
-  </data>
-  <data name="&gt;&gt;lblSmMem.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="cmbServerAddress.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 377</value>
-  </data>
-  <data name="lblSmClients.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSmDbSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 50</value>
-  </data>
-  <data name="lblSmServerName.Text" xml:space="preserve">
-    <value>&lt;server:port&gt;</value>
-  </data>
-  <data name="groupBox2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="loadingIndicator1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 3</value>
-  </data>
-  <data name="olvKeys.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;olvcKey.Type" xml:space="preserve">
-    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
-  </data>
-  <data name="tabPage2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;gbConnectInputs.Parent" xml:space="preserve">
-    <value>wsConnect</value>
-  </data>
-  <data name="pictureBox1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="wsConnected.Size" type="System.Drawing.Size, System.Drawing">
-    <value>704, 441</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Items</value>
-  </data>
-  <data name="&gt;&gt;pbConnectLogo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblSmClients.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblSmLastSave.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
-  </data>
-  <data name="scRedisBrowserRoot.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 14</value>
-  </data>
-  <data name="wsLoading.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnCancelConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 26</value>
-  </data>
-  <data name="cmbServerAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 24</value>
-  </data>
-  <data name="tabPage2.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Connected Clients</value>
-  </data>
-  <data name="lblSmDbSize.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSmLastSave.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 22</value>
-  </data>
-  <data name="lblSmMem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 72</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;largeIconsToolStripMenuItem.Name" xml:space="preserve">
-    <value>largeIconsToolStripMenuItem</value>
-  </data>
-  <data name="lblSmLastSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 94</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 16</value>
-  </data>
-  <data name="lblConnectTitle.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="wsLoading.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="toolStripButton1.Text" xml:space="preserve">
-    <value>Remove Item(s)</value>
-  </data>
-  <data name="statusStrip1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblLoadingProgressDetails.Text" xml:space="preserve">
-    <value>Downloading Key List...</value>
-  </data>
-  <data name="&gt;&gt;cueTextBox1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="dbg_lblwsConnect.Text" xml:space="preserve">
-    <value>wsConnect</value>
-  </data>
-  <data name="lblSmVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 28</value>
-  </data>
-  <data name="&gt;&gt;lblSmDbSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;largeIconsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblSmVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmDbSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="wsConnect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wsConnect.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="btnInitConnect.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;pbLoadingProgress.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;wsConnected.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtServerPassword.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblSmVersion.Name" xml:space="preserve">
-    <value>lblSmVersion</value>
-  </data>
-  <data name="&gt;&gt;btnCancelConnect.Name" xml:space="preserve">
-    <value>btnCancelConnect</value>
-  </data>
-  <data name="&gt;&gt;detailsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCancelConnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="btnCancelConnect.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="olvKeys.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmClients.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 366</value>
-  </data>
-  <data name="groupBox3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmClients.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 116</value>
-  </data>
-  <data name="&gt;&gt;btnLoadingAbort.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>scRedisBrowserRoot.Panel2</value>
-  </data>
-  <data name="&gt;&gt;lblSmDbSize.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="stringToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="dbg_lblwsConnect.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;cueTextBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tabControl1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="dbg_lblwsConnected.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="lblLoadingProgressDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 322</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel2.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="wsConnect.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="olvcType.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="lblConnectionError.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
-    <value>wsConnected</value>
-  </data>
-  <data name="olvKeys.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label9.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cmbServerAddress.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lblSmLastSave.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="lblSmVersion.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="loadingIndicator1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="statusStrip1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnect.Parent" xml:space="preserve">
-    <value>wsConnect</value>
-  </data>
-  <data name="cueTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 22</value>
-  </data>
-  <data name="lblLoadingStatusTitle.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="statusStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="gbConnectInputs.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCancelConnect.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="pictureBox1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Server Management</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="dbg_lblwsConnect.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="olvKeys.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;olvcKey.Name" xml:space="preserve">
-    <value>olvcKey</value>
-  </data>
-  <data name="lblSmVersion.Text" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="tableLayoutPanel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="wsLoading.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblLoadingStatusTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>scRedisBrowserRoot.Panel1</value>
-  </data>
-  <data name="&gt;&gt;lblSmMem.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="wsConnect.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;cueTextBox1.Name" xml:space="preserve">
-    <value>cueTextBox1</value>
-  </data>
-  <data name="pbLoadingProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 308</value>
-  </data>
-  <data name="largeIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmLastSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="dbg_lblwsConnected.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 16</value>
-  </data>
-  <data name="&gt;&gt;lblSmLastSave.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;wsConnected.Type" xml:space="preserve">
-    <value>Svekla.UI.Nightingale.WizardState, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="btnCancelConnect.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="loadingIndicator1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 16</value>
-  </data>
-  <data name="statusStrip1.Text" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="label7.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="hashToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="&gt;&gt;btnInitConnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtServerPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtServerPassword.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lblSmDbSize.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnected.Parent" xml:space="preserve">
-    <value>wsConnected</value>
-  </data>
-  <data name="lblConnectionError.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="label3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.Parent" xml:space="preserve">
-    <value>scRedisBrowserRoot</value>
-  </data>
-  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;lblSmVersion.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;btnInitConnect.Name" xml:space="preserve">
-    <value>btnInitConnect</value>
-  </data>
-  <data name="groupBox2.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cmbServerAddress.Name" xml:space="preserve">
-    <value>cmbServerAddress</value>
-  </data>
-  <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="lblConnectTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 265</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 16</value>
-  </data>
-  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStrip1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;btnCancelConnect.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="lblConnectTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
+  <metadata name="smallImgList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>412, 17</value>
+  </metadata>
   <data name="smallImgList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAe
-        CAAAAk1TRnQBSQFMAgEBBQEAAegBAgHwAQIBEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAc
+        CAAAAk1TRnQBSQFMAgEBBQEAAUgBAwFIAQMBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -1620,782 +285,8 @@
         AYYBYQYAAYYBYQYAAv8GAAj/AckBmQHEAQUBgAEBAYQBIQHJAZkBxAEFAYABAQGEASEByQGZBP8BnAE5
         AYABgQHEAYEBgAEBAZwBOQGAAYEBxAGBAYABAQGfAfkByQGZBP8BnAE5AckBmQHEAREBgAEBAZwBOQHJ
         AZkBxAERAYABAQGcATkByQGZBP8BnAE5AYABmQHEAUEBgAEBAZ8B+QGAAZkBxAFBAYABAQGcATkByQGR
-        BP8BnAE5AckBwwGAAQEBgAEBAYQBIQHJAecBgAEBAYABAQGEASEI/xYACw==
+        BP8BnAE5AckBwwGAAQEBgAEBAYQBIQHJAecBgAEBAYABAQGEASEI/ws=
 </value>
-  </data>
-  <data name="&gt;&gt;pbConnectLogo.Name" xml:space="preserve">
-    <value>pbConnectLogo</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;wsConnected.Name" xml:space="preserve">
-    <value>wsConnected</value>
-  </data>
-  <data name="btnLoadingAbort.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnect.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="tabPage1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblLoadingProgressDetails.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;sortedSetToolStripMenuItem.Name" xml:space="preserve">
-    <value>sortedSetToolStripMenuItem</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnLoadingAbort.Name" xml:space="preserve">
-    <value>btnLoadingAbort</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Name" xml:space="preserve">
-    <value>scRedisBrowserRoot</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>720, 480</value>
-  </data>
-  <data name="toolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="lblConnectionError.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnCancelConnect.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblSmDbSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 16</value>
-  </data>
-  <data name="cueTextBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnected.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="wsConnect.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblSmClients.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="lblConnectionError.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="wsConnected.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label3.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmLastSave.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lblLoadingStatusTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="toolStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cmbServerAddress.CueText" xml:space="preserve">
-    <value>Server Address</value>
-  </data>
-  <data name="lblSmServerName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pbLoadingProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>465, 11</value>
-  </data>
-  <data name="btnLoadingAbort.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblLoadingProgressDetails.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pbLoadingProgress.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnInitConnect.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="&gt;&gt;smallIconsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="wsConnected.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="lblLoadingStatusTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 16pt</value>
-  </data>
-  <data name="lblLoadingStatusTitle.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="lblLoadingProgressDetails.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmDbSize.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtServerPassword.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pbConnectLogo.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;wsConnected.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblConnectTitle.Text" xml:space="preserve">
-    <value>Connect to Redis Server</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblSmVersion.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;cmbServerAddress.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="btnCancelConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;olvcType.Name" xml:space="preserve">
-    <value>olvcType</value>
-  </data>
-  <data name="lblConnectTitle.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pictureBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lblSmDbSize.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblLoadingStatusTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblSmServerName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 24</value>
-  </data>
-  <data name="label9.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Item Properties</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 116</value>
-  </data>
-  <data name="gbConnectInputs.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pbLoadingProgress.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="pbConnectLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="button1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="button1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.Name" xml:space="preserve">
-    <value>scRedisBrowserRoot.Panel2</value>
-  </data>
-  <data name="&gt;&gt;olvcTTL.Name" xml:space="preserve">
-    <value>olvcTTL</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="cmbServerAddress.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;pbLoadingProgress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripDropDownButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pbLoadingProgress.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tableLayoutPanel1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;dbg_lblwsConnect.Name" xml:space="preserve">
-    <value>dbg_lblwsConnect</value>
-  </data>
-  <data name="&gt;&gt;listToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="wsConnected.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="lblConnectionError.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="pbConnectLogo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="gbConnectInputs.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="lblSmClients.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt</value>
-  </data>
-  <data name="lblLoadingProgressDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblLoadingStatusTitle.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pbConnectLogo.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="olvcKey.Text" xml:space="preserve">
-    <value>Key</value>
-  </data>
-  <data name="lblLoadingProgressDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cueTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
-  </data>
-  <data name="wsConnected.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblSmClients.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="scRedisBrowserRoot.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSmMem.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblConnectionError.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripDropDownButton2.Text" xml:space="preserve">
-    <value>View</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.Parent" xml:space="preserve">
-    <value>scRedisBrowserRoot</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 366</value>
-  </data>
-  <data name="lblConnectTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>323, 32</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="btnLoadingAbort.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="cueTextBox1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;stringToolStripMenuItem.Name" xml:space="preserve">
-    <value>stringToolStripMenuItem</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 4</value>
-  </data>
-  <data name="btnCancelConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="dbg_lblwsConnected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;wsLoading.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblConnectTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tableLayoutPanel1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pbLoadingProgress.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabPage1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;loadingIndicator1.Name" xml:space="preserve">
-    <value>loadingIndicator1</value>
-  </data>
-  <data name="dbg_lblwsConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 16</value>
-  </data>
-  <data name="pbConnectLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;detailsToolStripMenuItem.Name" xml:space="preserve">
-    <value>detailsToolStripMenuItem</value>
-  </data>
-  <data name="txtServerPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 22</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="lblSmMem.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pbConnectLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="wsConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>704, 441</value>
-  </data>
-  <data name="&gt;&gt;errors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtServerPassword.Type" xml:space="preserve">
-    <value>Svekla.UI.Controls.CueTextBox, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dbg_lblwsConnect.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cueTextBox1.CueText" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="&gt;&gt;lblLoadingProgressDetails.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lblLoadingProgressDetails.Name" xml:space="preserve">
-    <value>lblLoadingProgressDetails</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblConnectTitle.Name" xml:space="preserve">
-    <value>lblConnectTitle</value>
-  </data>
-  <data name="dbg_lblwsConnected.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="pbLoadingProgress.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblConnectTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 16pt</value>
-  </data>
-  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="lblSmServerName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="olvcTTL.Width" type="System.Int32, mscorlib">
-    <value>140</value>
-  </data>
-  <data name="label3.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnLoadingAbort.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblSmLastSave.Name" xml:space="preserve">
-    <value>lblSmLastSave</value>
-  </data>
-  <data name="&gt;&gt;hashToolStripMenuItem.Name" xml:space="preserve">
-    <value>hashToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;gbConnectInputs.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="loadingIndicator1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>663, 211</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="wsConnect.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lblSmMem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="dbg_lblwsConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;lblLoadingStatusTitle.Name" xml:space="preserve">
-    <value>lblLoadingStatusTitle</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cueTextBox1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pbConnectLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 12</value>
-  </data>
-  <data name="lblSmDbSize.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lblLoadingStatusTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Last Save Time</value>
-  </data>
-  <data name="&gt;&gt;lblConnectionError.Name" xml:space="preserve">
-    <value>lblConnectionError</value>
-  </data>
-  <data name="button1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;cueTextBox1.Type" xml:space="preserve">
-    <value>Svekla.UI.Controls.CueTextBox, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Data Browser</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblLoadingStatusTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="lblSmServerName.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPage2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtServerPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="setToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="scRedisBrowserRoot.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="scRedisBrowserRoot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="btnInitConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>233, 384</value>
-  </data>
-  <data name="&gt;&gt;errors.Name" xml:space="preserve">
-    <value>errors</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="wsConnect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="detailsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="toolStrip1.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="pictureBox1.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;toolStripDropDownButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblSmClients.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.Name" xml:space="preserve">
-    <value>scRedisBrowserRoot.Panel1</value>
-  </data>
-  <data name="cmbServerAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="loadingIndicator1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;loadingIndicator1.Type" xml:space="preserve">
-    <value>Svekla.UI.Controls.LoadingIndicator, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;smallIconsToolStripMenuItem.Name" xml:space="preserve">
-    <value>smallIconsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
-  </data>
-  <data name="groupBox1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmLastSave.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="dbg_lblwsConnected.Location" type="System.Drawing.Point, System.Drawing">
-    <value>606, 11</value>
-  </data>
-  <data name="lblLoadingStatusTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 273</value>
-  </data>
-  <data name="lblSmVersion.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt</value>
-  </data>
-  <data name="toolStrip1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;txtServerPassword.Parent" xml:space="preserve">
-    <value>gbConnectInputs</value>
-  </data>
-  <data name="toolStrip1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="scRedisBrowserRoot.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 35</value>
-  </data>
-  <data name="wsConnected.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmVersion.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="scRedisBrowserRoot.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="cmbServerAddress.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="tabPage2.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>666, 315</value>
-  </data>
-  <data name="btnLoadingAbort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 26</value>
-  </data>
-  <data name="olvcKey.Width" type="System.Int32, mscorlib">
-    <value>400</value>
-  </data>
-  <data name="btnInitConnect.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblSmDbSize.Name" xml:space="preserve">
-    <value>lblSmDbSize</value>
-  </data>
-  <data name="&gt;&gt;wsLoading.Type" xml:space="preserve">
-    <value>Svekla.UI.Nightingale.WizardState, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="scRedisBrowserRoot.Panel2.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;olvcTTL.Type" xml:space="preserve">
-    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
-  </data>
-  <data name="wsLoading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>704, 441</value>
-  </data>
-  <data name="tabControl1.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnLoadingAbort.Text" xml:space="preserve">
-    <value>Abort</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblSmServerName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;setToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblSmClients.Text" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="lblSmLastSave.Text" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="lblLoadingProgressDetails.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="tabControl1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnInitConnect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 26</value>
-  </data>
-  <data name="lblLoadingStatusTitle.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblSmMem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pbLoadingProgress.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Clients Connected</value>
-  </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnInitConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="label9.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="wsLoading.Error" xml:space="preserve">
-    <value />
-  </data>
-  <data name="wsLoading.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
-  <data name="btnCancelConnect.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <metadata name="errors.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -2403,19 +294,1390 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="smallImgList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>412, 17</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>704, 441</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 149</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>663, 211</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Connected Clients</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Redis Server Version</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSmServerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSmServerName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 14pt, style=Bold</value>
+  </data>
+  <data name="lblSmServerName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSmServerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblSmServerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 24</value>
+  </data>
+  <data name="lblSmServerName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSmServerName.Text" xml:space="preserve">
+    <value>&lt;server:port&gt;</value>
+  </data>
+  <data name="&gt;&gt;lblSmServerName.Name" xml:space="preserve">
+    <value>lblSmServerName</value>
+  </data>
+  <data name="&gt;&gt;lblSmServerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSmServerName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblSmServerName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSmVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSmVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblSmVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSmVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 28</value>
+  </data>
+  <data name="lblSmVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="lblSmVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSmVersion.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;lblSmVersion.Name" xml:space="preserve">
+    <value>lblSmVersion</value>
+  </data>
+  <data name="&gt;&gt;lblSmVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSmVersion.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblSmVersion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Database Size</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSmDbSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSmDbSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblSmDbSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSmDbSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 50</value>
+  </data>
+  <data name="lblSmDbSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="lblSmDbSize.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblSmDbSize.Text" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;lblSmDbSize.Name" xml:space="preserve">
+    <value>lblSmDbSize</value>
+  </data>
+  <data name="&gt;&gt;lblSmDbSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSmDbSize.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblSmDbSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 72</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Memory Usage (Current/Peak)</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblSmMem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSmMem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblSmMem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSmMem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 72</value>
+  </data>
+  <data name="lblSmMem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="lblSmMem.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblSmMem.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;lblSmMem.Name" xml:space="preserve">
+    <value>lblSmMem</value>
+  </data>
+  <data name="&gt;&gt;lblSmMem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSmMem.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblSmMem.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Last Save Time</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSmLastSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSmLastSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblSmLastSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSmLastSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 94</value>
+  </data>
+  <data name="lblSmLastSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="lblSmLastSave.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblSmLastSave.Text" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;lblSmLastSave.Name" xml:space="preserve">
+    <value>lblSmLastSave</value>
+  </data>
+  <data name="&gt;&gt;lblSmLastSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSmLastSave.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblSmLastSave.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 16</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Clients Connected</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblSmClients.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSmClients.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="lblSmClients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSmClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 116</value>
+  </data>
+  <data name="lblSmClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="lblSmClients.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblSmClients.Text" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;lblSmClients.Name" xml:space="preserve">
+    <value>lblSmClients</value>
+  </data>
+  <data name="&gt;&gt;lblSmClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSmClients.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblSmClients.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 4</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 139</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmServerName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmVersion" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmDbSize" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label5" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmMem" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label7" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmLastSave" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label9" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSmClients" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Absolute,28,Absolute,22,Absolute,22,Absolute,22,Absolute,22,Absolute,22" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>672, 366</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Server Management</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scRedisBrowserRoot.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="scRedisBrowserRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="olvcKey.Text" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="olvcKey.Width" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="olvcType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="olvcType.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="olvcTTL.Text" xml:space="preserve">
+    <value>Expiration</value>
+  </data>
+  <data name="olvcTTL.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="olvKeys.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="olvKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="olvKeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 277</value>
+  </data>
+  <data name="olvKeys.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;olvKeys.Name" xml:space="preserve">
+    <value>olvKeys</value>
+  </data>
+  <data name="&gt;&gt;olvKeys.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.VirtualObjectListView, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvKeys.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;olvKeys.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 22</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cueTextBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cueTextBox1.CueText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="cueTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="cueTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>573, 22</value>
+  </data>
+  <data name="cueTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cueTextBox1.Name" xml:space="preserve">
+    <value>cueTextBox1</value>
+  </data>
+  <data name="&gt;&gt;cueTextBox1.Type" xml:space="preserve">
+    <value>Svekla.UI.Controls.CueTextBox, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cueTextBox1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cueTextBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>666, 338</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>scRedisBrowserRoot.Panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.Name" xml:space="preserve">
+    <value>scRedisBrowserRoot.Panel1</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.Parent" xml:space="preserve">
+    <value>scRedisBrowserRoot</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 309</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Item Properties</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>scRedisBrowserRoot.Panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.Name" xml:space="preserve">
+    <value>scRedisBrowserRoot.Panel2</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.Parent" xml:space="preserve">
+    <value>scRedisBrowserRoot</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scRedisBrowserRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>666, 338</value>
+  </data>
+  <data name="scRedisBrowserRoot.SplitterDistance" type="System.Int32, mscorlib">
+    <value>410</value>
+  </data>
+  <data name="scRedisBrowserRoot.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Name" xml:space="preserve">
+    <value>scRedisBrowserRoot</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;scRedisBrowserRoot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>672, 366</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Data Browser</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>680, 395</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>wsConnected</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>531, 17</value>
   </metadata>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 419</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 22</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>wsConnected</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dbg_lblwsConnected.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="dbg_lblwsConnected.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dbg_lblwsConnected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dbg_lblwsConnected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 11</value>
+  </data>
+  <data name="dbg_lblwsConnected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 16</value>
+  </data>
+  <data name="dbg_lblwsConnected.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dbg_lblwsConnected.Text" xml:space="preserve">
+    <value>wsConnected</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnected.Name" xml:space="preserve">
+    <value>dbg_lblwsConnected</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnected.Parent" xml:space="preserve">
+    <value>wsConnected</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnected.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="wsConnected.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="wsConnected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="wsConnected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 441</value>
+  </data>
+  <data name="wsConnected.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;wsConnected.Name" xml:space="preserve">
+    <value>wsConnected</value>
+  </data>
+  <data name="&gt;&gt;wsConnected.Type" xml:space="preserve">
+    <value>Svekla.UI.Nightingale.WizardState, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;wsConnected.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wsConnected.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbConnectInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblConnectionError.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblConnectionError.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblConnectionError.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblConnectionError.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblConnectionError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 365</value>
+  </data>
+  <data name="lblConnectionError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
+  <data name="lblConnectionError.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblConnectionError.Text" xml:space="preserve">
+    <value>Error: (null)</value>
+  </data>
+  <data name="lblConnectionError.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionError.Name" xml:space="preserve">
+    <value>lblConnectionError</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionError.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionError.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbConnectLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pbConnectLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbConnectLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 12</value>
+  </data>
+  <data name="pbConnectLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 250</value>
+  </data>
+  <data name="pbConnectLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pbConnectLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pbConnectLogo.Name" xml:space="preserve">
+    <value>pbConnectLogo</value>
+  </data>
+  <data name="&gt;&gt;pbConnectLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbConnectLogo.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;pbConnectLogo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblConnectTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblConnectTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 16pt</value>
+  </data>
+  <data name="lblConnectTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblConnectTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 265</value>
+  </data>
+  <data name="lblConnectTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 32</value>
+  </data>
+  <data name="lblConnectTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblConnectTitle.Text" xml:space="preserve">
+    <value>Connect to Redis Server</value>
+  </data>
+  <data name="lblConnectTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblConnectTitle.Name" xml:space="preserve">
+    <value>lblConnectTitle</value>
+  </data>
+  <data name="&gt;&gt;lblConnectTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConnectTitle.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;lblConnectTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCancelConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancelConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancelConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 384</value>
+  </data>
+  <data name="btnCancelConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="btnCancelConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnCancelConnect.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancelConnect.Name" xml:space="preserve">
+    <value>btnCancelConnect</value>
+  </data>
+  <data name="&gt;&gt;btnCancelConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancelConnect.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;btnCancelConnect.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnInitConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnInitConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnInitConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 384</value>
+  </data>
+  <data name="btnInitConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="btnInitConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnInitConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;btnInitConnect.Name" xml:space="preserve">
+    <value>btnInitConnect</value>
+  </data>
+  <data name="&gt;&gt;btnInitConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInitConnect.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;btnInitConnect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtServerPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="txtServerPassword.CueText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="txtServerPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 338</value>
+  </data>
+  <data name="txtServerPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 22</value>
+  </data>
+  <data name="txtServerPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtServerPassword.Name" xml:space="preserve">
+    <value>txtServerPassword</value>
+  </data>
+  <data name="&gt;&gt;txtServerPassword.Type" xml:space="preserve">
+    <value>Svekla.UI.Controls.CueTextBox, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtServerPassword.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;txtServerPassword.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbServerAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="cmbServerAddress.CueText" xml:space="preserve">
+    <value>Server Address</value>
+  </data>
+  <data name="cmbServerAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 306</value>
+  </data>
+  <data name="cmbServerAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 24</value>
+  </data>
+  <data name="cmbServerAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbServerAddress.Name" xml:space="preserve">
+    <value>cmbServerAddress</value>
+  </data>
+  <data name="&gt;&gt;cmbServerAddress.Type" xml:space="preserve">
+    <value>Svekla.UI.Controls.CueComboBox, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmbServerAddress.Parent" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;cmbServerAddress.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gbConnectInputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 12</value>
+  </data>
+  <data name="gbConnectInputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 417</value>
+  </data>
+  <data name="gbConnectInputs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gbConnectInputs.Name" xml:space="preserve">
+    <value>gbConnectInputs</value>
+  </data>
+  <data name="&gt;&gt;gbConnectInputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbConnectInputs.Parent" xml:space="preserve">
+    <value>wsConnect</value>
+  </data>
+  <data name="&gt;&gt;gbConnectInputs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dbg_lblwsConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="dbg_lblwsConnect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dbg_lblwsConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dbg_lblwsConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 11</value>
+  </data>
+  <data name="dbg_lblwsConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="dbg_lblwsConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dbg_lblwsConnect.Text" xml:space="preserve">
+    <value>wsConnect</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnect.Name" xml:space="preserve">
+    <value>dbg_lblwsConnect</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnect.Parent" xml:space="preserve">
+    <value>wsConnect</value>
+  </data>
+  <data name="&gt;&gt;dbg_lblwsConnect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="wsConnect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="wsConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="wsConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 441</value>
+  </data>
+  <data name="wsConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="wsConnect.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;wsConnect.Name" xml:space="preserve">
+    <value>wsConnect</value>
+  </data>
+  <data name="&gt;&gt;wsConnect.Type" xml:space="preserve">
+    <value>Svekla.UI.Nightingale.WizardState, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;wsConnect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wsConnect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnLoadingAbort.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="btnLoadingAbort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLoadingAbort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 348</value>
+  </data>
+  <data name="btnLoadingAbort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="btnLoadingAbort.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnLoadingAbort.Text" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="&gt;&gt;btnLoadingAbort.Name" xml:space="preserve">
+    <value>btnLoadingAbort</value>
+  </data>
+  <data name="&gt;&gt;btnLoadingAbort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadingAbort.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnLoadingAbort.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLoadingProgressDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLoadingProgressDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 322</value>
+  </data>
+  <data name="lblLoadingProgressDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 16</value>
+  </data>
+  <data name="lblLoadingProgressDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblLoadingProgressDetails.Text" xml:space="preserve">
+    <value>Downloading Key List...</value>
+  </data>
+  <data name="lblLoadingProgressDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingProgressDetails.Name" xml:space="preserve">
+    <value>lblLoadingProgressDetails</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingProgressDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingProgressDetails.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingProgressDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbLoadingProgress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbLoadingProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 308</value>
+  </data>
+  <data name="pbLoadingProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 11</value>
+  </data>
+  <data name="pbLoadingProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingProgress.Name" xml:space="preserve">
+    <value>pbLoadingProgress</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingProgress.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pbLoadingProgress.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLoadingStatusTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblLoadingStatusTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 16pt</value>
+  </data>
+  <data name="lblLoadingStatusTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLoadingStatusTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 273</value>
+  </data>
+  <data name="lblLoadingStatusTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 32</value>
+  </data>
+  <data name="lblLoadingStatusTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblLoadingStatusTitle.Text" xml:space="preserve">
+    <value>Trying Hard to Load it Fast...</value>
+  </data>
+  <data name="lblLoadingStatusTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingStatusTitle.Name" xml:space="preserve">
+    <value>lblLoadingStatusTitle</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingStatusTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingStatusTitle.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblLoadingStatusTitle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="loadingIndicator1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 3</value>
+  </data>
+  <data name="loadingIndicator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 256</value>
+  </data>
+  <data name="loadingIndicator1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="loadingIndicator1.Text" xml:space="preserve">
+    <value>loadingIndicator</value>
+  </data>
+  <data name="&gt;&gt;loadingIndicator1.Name" xml:space="preserve">
+    <value>loadingIndicator1</value>
+  </data>
+  <data name="&gt;&gt;loadingIndicator1.Type" xml:space="preserve">
+    <value>Svekla.UI.Controls.LoadingIndicator, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;loadingIndicator1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;loadingIndicator1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 32</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 377</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>wsLoading</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="wsLoading.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="wsLoading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="wsLoading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 441</value>
+  </data>
+  <data name="wsLoading.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;wsLoading.Name" xml:space="preserve">
+    <value>wsLoading</value>
+  </data>
+  <data name="&gt;&gt;wsLoading.Type" xml:space="preserve">
+    <value>Svekla.UI.Nightingale.WizardState, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;wsLoading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wsLoading.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>720, 480</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Connect to Redis Server</value>
+  </data>
+  <data name="&gt;&gt;largeImgList.Name" xml:space="preserve">
+    <value>largeImgList</value>
+  </data>
+  <data name="&gt;&gt;largeImgList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smallImgList.Name" xml:space="preserve">
+    <value>smallImgList</value>
+  </data>
+  <data name="&gt;&gt;smallImgList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errors.Name" xml:space="preserve">
+    <value>errors</value>
+  </data>
+  <data name="&gt;&gt;errors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvcKey.Name" xml:space="preserve">
+    <value>olvcKey</value>
+  </data>
+  <data name="&gt;&gt;olvcKey.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcType.Name" xml:space="preserve">
+    <value>olvcType</value>
+  </data>
+  <data name="&gt;&gt;olvcType.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcTTL.Name" xml:space="preserve">
+    <value>olvcTTL</value>
+  </data>
+  <data name="&gt;&gt;olvcTTL.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RedisBrowserForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>205, 17</value>
-  </metadata>
-  <metadata name="largeImgList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>302, 17</value>
-  </metadata>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>100, 17</value>
   </metadata>
 </root>

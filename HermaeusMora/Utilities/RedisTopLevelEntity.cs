@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ServiceStack.Redis;
 
 namespace Svekla.Utilities
 {
@@ -25,19 +26,18 @@ namespace Svekla.Utilities
         public DateTime ExpiresAt
         { get; set; }
 
-        public static EntityType ParseType(String type)
+        public static EntityType ParseType(RedisKeyType type)
         {
-            type = type.ToLower();
 
-            if (type == "string")
+            if (type == RedisKeyType.String)
                 return EntityType.String;
-            else if (type == "zset")
+            else if (type == RedisKeyType.SortedSet)
                 return EntityType.SortedSet;
-            else if (type == "set")
+            else if (type == RedisKeyType.Set)
                 return EntityType.Set;
-            else if (type == "list")
+            else if (type == RedisKeyType.List)
                 return EntityType.List;
-            else if (type == "hash")
+            else if (type == RedisKeyType.Hash)
                 return EntityType.Hash;
             else
                 throw new Exception();

@@ -24,6 +24,9 @@ namespace Svekla
         // Constants
         const String CACHE_DIR = "cache\\";
 
+        // Parent Form
+        MainForm parent;
+
         // Localization
         ResourceManager locale = new ResourceManager("Svekla.Resources.Locale", typeof(RedisBrowserForm).Assembly);
 
@@ -52,9 +55,13 @@ namespace Svekla
         /// <summary>
         /// Constructor
         /// </summary>
-        public RedisBrowserForm()
+        public RedisBrowserForm(MainForm parent)
         {
             InitializeComponent();
+
+            // Mdi
+            this.MdiParent = parent;
+            this.parent = parent;
 
             // Add global settings handler
             GlobalSettings.Instance.SettingsChanged +=
@@ -85,6 +92,14 @@ namespace Svekla
                     RedisTopLevelEntity en = (RedisTopLevelEntity)row;
                     return (int)en.Type;
                 };
+            olvcTTL.AspectToStringConverter = delegate(Object o)
+            {
+                RedisTopLevelEntity en = (RedisTopLevelEntity)o;
+                if (en.ExpiresAt == null || en.ExpiresAt < DateTime.Now)
+                    return "N/A";
+                else
+                    return en.ExpiresAt.ToString();
+            };
 
             // event handlers
             this.FormClosing += (Object o, FormClosingEventArgs e) => { if (timer.Enabled) timer.Stop(); if (redisClient != null) redisClient.Dispose(); };
@@ -139,6 +154,30 @@ namespace Svekla
             }));
         }
 
+        #region MDI Parent Interfacing
+
+        // Events
+        private EventHandler _onConnected;
+
+        public event EventHandler Connected
+        { add { _onConnected += value; } remove { _onConnected -= value; } }
+
+        private void OnConnected()
+        {
+            if (_onConnected != null)
+                _onConnected(this, new EventArgs());
+        }
+
+        public Boolean IsConnected
+        { get { return redisClient != null; } }
+
+        public String ServerAddress
+        { get { return String.Format("{0}:{1}", serverHost, serverPort); } }
+
+
+
+        #endregion
+
         #region wsConnect Events
 
         BackgroundWorker bw = null;
@@ -183,6 +222,9 @@ namespace Svekla
             serverHost = host;
             serverPort = port;
 
+            // check if this connection is duplicate
+            if (parent.TryActivateDuplicate(this))
+                return;
 
             // prepare UI for connection
             cmbServerAddress.Enabled = false;
@@ -310,6 +352,9 @@ namespace Svekla
 
             // pull data
             PullData();
+
+            // connected
+            OnConnected();
         }
 
         #endregion
@@ -374,7 +419,7 @@ namespace Svekla
                         else
                         {
                             // get key data
-                            entity.Type = RedisTopLevelEntity.ParseType(client.Type(key));
+                            entity.Type = RedisTopLevelEntity.ParseType(client.GetEntryType(key));
                             entity.ExpiresAt = DateTime.Now + client.GetTimeToLive(key);
                          
                             // update cache
@@ -458,16 +503,6 @@ namespace Svekla
                 bw.Dispose();
                 loaderCancelling = true;
             }
-        }
-
-        private void changeView(object sender, EventArgs e)
-        {
-            if (sender == largeIconsToolStripMenuItem)
-                olvKeys.View = View.LargeIcon;
-            else if (sender == smallIconsToolStripMenuItem)
-                olvKeys.View = View.List;
-            else if (sender == detailsToolStripMenuItem)
-                olvKeys.View = View.Details;
         }
 
         #endregion

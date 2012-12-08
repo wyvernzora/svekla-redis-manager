@@ -31,30 +31,30 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
             this.mms_program = new System.Windows.Forms.ToolStripMenuItem();
-            this.connectToNewServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_srv_connect = new System.Windows.Forms.ToolStripMenuItem();
             this.mms_help = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitSveklaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_srv_sep0 = new System.Windows.Forms.ToolStripSeparator();
+            this.mms_srv_sep1 = new System.Windows.Forms.ToolStripSeparator();
+            this.mms_srv_exitapp = new System.Windows.Forms.ToolStripMenuItem();
             this.mms_data = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.backgroundSaveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.shutdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteDatabaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteAllDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutSveklaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_v_sep0 = new System.Windows.Forms.ToolStripSeparator();
+            this.mms_d_del = new System.Windows.Forms.ToolStripMenuItem();
             this.mms_view = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_ssrv_save = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_ssrv_bgsave = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_ssrv_shutdown = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_ssrv_dropdb = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_ssrv_dropall = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_v_large = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_v_small = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_v_list = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_v_details = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_d_string = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_d_list = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_d_set = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_d_zset = new System.Windows.Forms.ToolStripMenuItem();
+            this.mms_d_hash = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutSveklaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,23 +71,23 @@
             // mms_program
             // 
             this.mms_program.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.connectToNewServerToolStripMenuItem,
-            this.toolStripMenuItem1,
-            this.saveToolStripMenuItem,
-            this.backgroundSaveToolStripMenuItem,
-            this.shutdownToolStripMenuItem,
-            this.deleteDatabaseToolStripMenuItem,
-            this.deleteAllDataToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.exitSveklaToolStripMenuItem});
+            this.mms_srv_connect,
+            this.mms_srv_sep0,
+            this.mms_ssrv_save,
+            this.mms_ssrv_bgsave,
+            this.mms_ssrv_shutdown,
+            this.mms_ssrv_dropdb,
+            this.mms_ssrv_dropall,
+            this.mms_srv_sep1,
+            this.mms_srv_exitapp});
             this.mms_program.Name = "mms_program";
             resources.ApplyResources(this.mms_program, "mms_program");
             // 
-            // connectToNewServerToolStripMenuItem
+            // mms_srv_connect
             // 
-            this.connectToNewServerToolStripMenuItem.Name = "connectToNewServerToolStripMenuItem";
-            resources.ApplyResources(this.connectToNewServerToolStripMenuItem, "connectToNewServerToolStripMenuItem");
-            this.connectToNewServerToolStripMenuItem.Click += new System.EventHandler(this.connectToNewServerToolStripMenuItem_Click);
+            this.mms_srv_connect.Name = "mms_srv_connect";
+            resources.ApplyResources(this.mms_srv_connect, "mms_srv_connect");
+            this.mms_srv_connect.Click += new System.EventHandler(this.connectToNewServerToolStripMenuItem_Click);
             // 
             // mms_help
             // 
@@ -96,143 +96,144 @@
             this.mms_help.Name = "mms_help";
             resources.ApplyResources(this.mms_help, "mms_help");
             // 
-            // toolStripMenuItem1
+            // mms_srv_sep0
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.mms_srv_sep0.Name = "mms_srv_sep0";
+            resources.ApplyResources(this.mms_srv_sep0, "mms_srv_sep0");
             // 
-            // toolStripMenuItem2
+            // mms_srv_sep1
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.mms_srv_sep1.Name = "mms_srv_sep1";
+            resources.ApplyResources(this.mms_srv_sep1, "mms_srv_sep1");
             // 
-            // exitSveklaToolStripMenuItem
+            // mms_srv_exitapp
             // 
-            this.exitSveklaToolStripMenuItem.Name = "exitSveklaToolStripMenuItem";
-            resources.ApplyResources(this.exitSveklaToolStripMenuItem, "exitSveklaToolStripMenuItem");
+            this.mms_srv_exitapp.Image = global::Svekla.Properties.Resources.Exit;
+            this.mms_srv_exitapp.Name = "mms_srv_exitapp";
+            resources.ApplyResources(this.mms_srv_exitapp, "mms_srv_exitapp");
             // 
             // mms_data
             // 
             this.mms_data.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem5,
-            this.toolStripMenuItem6,
-            this.toolStripMenuItem7,
-            this.toolStripSeparator1,
-            this.toolStripMenuItem8});
+            this.mms_d_string,
+            this.mms_d_list,
+            this.mms_d_set,
+            this.mms_d_zset,
+            this.mms_d_hash,
+            this.mms_v_sep0,
+            this.mms_d_del});
             this.mms_data.Name = "mms_data";
             resources.ApplyResources(this.mms_data, "mms_data");
             // 
-            // toolStripSeparator1
+            // mms_v_sep0
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.mms_v_sep0.Name = "mms_v_sep0";
+            resources.ApplyResources(this.mms_v_sep0, "mms_v_sep0");
             // 
-            // toolStripMenuItem8
+            // mms_d_del
             // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            resources.ApplyResources(this.toolStripMenuItem8, "toolStripMenuItem8");
+            this.mms_d_del.Name = "mms_d_del";
+            resources.ApplyResources(this.mms_d_del, "mms_d_del");
             // 
-            // saveToolStripMenuItem
+            // mms_view
             // 
-            this.saveToolStripMenuItem.Image = global::Svekla.Properties.Resources.Save16;
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            resources.ApplyResources(this.saveToolStripMenuItem, "saveToolStripMenuItem");
+            this.mms_view.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mms_v_large,
+            this.mms_v_small,
+            this.mms_v_list,
+            this.mms_v_details});
+            this.mms_view.Name = "mms_view";
+            resources.ApplyResources(this.mms_view, "mms_view");
             // 
-            // backgroundSaveToolStripMenuItem
+            // mms_ssrv_save
             // 
-            this.backgroundSaveToolStripMenuItem.Image = global::Svekla.Properties.Resources.Save16;
-            this.backgroundSaveToolStripMenuItem.Name = "backgroundSaveToolStripMenuItem";
-            resources.ApplyResources(this.backgroundSaveToolStripMenuItem, "backgroundSaveToolStripMenuItem");
+            this.mms_ssrv_save.Image = global::Svekla.Properties.Resources.Save16;
+            this.mms_ssrv_save.Name = "mms_ssrv_save";
+            resources.ApplyResources(this.mms_ssrv_save, "mms_ssrv_save");
             // 
-            // shutdownToolStripMenuItem
+            // mms_ssrv_bgsave
             // 
-            this.shutdownToolStripMenuItem.Image = global::Svekla.Properties.Resources.Shutdown16;
-            this.shutdownToolStripMenuItem.Name = "shutdownToolStripMenuItem";
-            resources.ApplyResources(this.shutdownToolStripMenuItem, "shutdownToolStripMenuItem");
+            this.mms_ssrv_bgsave.Image = global::Svekla.Properties.Resources.Save16;
+            this.mms_ssrv_bgsave.Name = "mms_ssrv_bgsave";
+            resources.ApplyResources(this.mms_ssrv_bgsave, "mms_ssrv_bgsave");
             // 
-            // deleteDatabaseToolStripMenuItem
+            // mms_ssrv_shutdown
             // 
-            this.deleteDatabaseToolStripMenuItem.Image = global::Svekla.Properties.Resources.Warning16;
-            this.deleteDatabaseToolStripMenuItem.Name = "deleteDatabaseToolStripMenuItem";
-            resources.ApplyResources(this.deleteDatabaseToolStripMenuItem, "deleteDatabaseToolStripMenuItem");
+            this.mms_ssrv_shutdown.Image = global::Svekla.Properties.Resources.Shutdown16;
+            this.mms_ssrv_shutdown.Name = "mms_ssrv_shutdown";
+            resources.ApplyResources(this.mms_ssrv_shutdown, "mms_ssrv_shutdown");
             // 
-            // deleteAllDataToolStripMenuItem
+            // mms_ssrv_dropdb
             // 
-            this.deleteAllDataToolStripMenuItem.Image = global::Svekla.Properties.Resources.Warning16;
-            this.deleteAllDataToolStripMenuItem.Name = "deleteAllDataToolStripMenuItem";
-            resources.ApplyResources(this.deleteAllDataToolStripMenuItem, "deleteAllDataToolStripMenuItem");
+            this.mms_ssrv_dropdb.Image = global::Svekla.Properties.Resources.Warning16;
+            this.mms_ssrv_dropdb.Name = "mms_ssrv_dropdb";
+            resources.ApplyResources(this.mms_ssrv_dropdb, "mms_ssrv_dropdb");
             // 
-            // toolStripMenuItem3
+            // mms_ssrv_dropall
             // 
-            this.toolStripMenuItem3.Image = global::Svekla.Properties.Resources.RedisString16;
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.mms_ssrv_dropall.Image = global::Svekla.Properties.Resources.Warning16;
+            this.mms_ssrv_dropall.Name = "mms_ssrv_dropall";
+            resources.ApplyResources(this.mms_ssrv_dropall, "mms_ssrv_dropall");
             // 
-            // toolStripMenuItem4
+            // mms_v_large
             // 
-            this.toolStripMenuItem4.Image = global::Svekla.Properties.Resources.RedisList16;
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
+            this.mms_v_large.Image = global::Svekla.Properties.Resources.LargeIcons;
+            this.mms_v_large.Name = "mms_v_large";
+            resources.ApplyResources(this.mms_v_large, "mms_v_large");
             // 
-            // toolStripMenuItem5
+            // mms_v_small
             // 
-            this.toolStripMenuItem5.Image = global::Svekla.Properties.Resources.RedisSet16;
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
+            this.mms_v_small.Image = global::Svekla.Properties.Resources.View16;
+            this.mms_v_small.Name = "mms_v_small";
+            resources.ApplyResources(this.mms_v_small, "mms_v_small");
             // 
-            // toolStripMenuItem6
+            // mms_v_list
             // 
-            this.toolStripMenuItem6.Image = global::Svekla.Properties.Resources.RedisSortedSet16;
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            resources.ApplyResources(this.toolStripMenuItem6, "toolStripMenuItem6");
+            this.mms_v_list.Image = global::Svekla.Properties.Resources.RedisList16;
+            this.mms_v_list.Name = "mms_v_list";
+            resources.ApplyResources(this.mms_v_list, "mms_v_list");
             // 
-            // toolStripMenuItem7
+            // mms_v_details
             // 
-            this.toolStripMenuItem7.Image = global::Svekla.Properties.Resources.RedisHash16;
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            resources.ApplyResources(this.toolStripMenuItem7, "toolStripMenuItem7");
+            this.mms_v_details.Image = global::Svekla.Properties.Resources.Details16;
+            this.mms_v_details.Name = "mms_v_details";
+            resources.ApplyResources(this.mms_v_details, "mms_v_details");
+            // 
+            // mms_d_string
+            // 
+            this.mms_d_string.Image = global::Svekla.Properties.Resources.RedisString16;
+            this.mms_d_string.Name = "mms_d_string";
+            resources.ApplyResources(this.mms_d_string, "mms_d_string");
+            // 
+            // mms_d_list
+            // 
+            this.mms_d_list.Image = global::Svekla.Properties.Resources.RedisList16;
+            this.mms_d_list.Name = "mms_d_list";
+            resources.ApplyResources(this.mms_d_list, "mms_d_list");
+            // 
+            // mms_d_set
+            // 
+            this.mms_d_set.Image = global::Svekla.Properties.Resources.RedisSet16;
+            this.mms_d_set.Name = "mms_d_set";
+            resources.ApplyResources(this.mms_d_set, "mms_d_set");
+            // 
+            // mms_d_zset
+            // 
+            this.mms_d_zset.Image = global::Svekla.Properties.Resources.RedisSortedSet16;
+            this.mms_d_zset.Name = "mms_d_zset";
+            resources.ApplyResources(this.mms_d_zset, "mms_d_zset");
+            // 
+            // mms_d_hash
+            // 
+            this.mms_d_hash.Image = global::Svekla.Properties.Resources.RedisHash16;
+            this.mms_d_hash.Name = "mms_d_hash";
+            resources.ApplyResources(this.mms_d_hash, "mms_d_hash");
             // 
             // aboutSveklaToolStripMenuItem
             // 
             this.aboutSveklaToolStripMenuItem.Image = global::Svekla.Properties.Resources.Info16;
             this.aboutSveklaToolStripMenuItem.Name = "aboutSveklaToolStripMenuItem";
             resources.ApplyResources(this.aboutSveklaToolStripMenuItem, "aboutSveklaToolStripMenuItem");
-            // 
-            // mms_view
-            // 
-            this.mms_view.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem9,
-            this.toolStripMenuItem10,
-            this.toolStripMenuItem11,
-            this.toolStripMenuItem12});
-            this.mms_view.Name = "mms_view";
-            resources.ApplyResources(this.mms_view, "mms_view");
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Image = global::Svekla.Properties.Resources.LargeIcons;
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            resources.ApplyResources(this.toolStripMenuItem9, "toolStripMenuItem9");
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Image = global::Svekla.Properties.Resources.View16;
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            resources.ApplyResources(this.toolStripMenuItem10, "toolStripMenuItem10");
-            // 
-            // toolStripMenuItem11
-            // 
-            this.toolStripMenuItem11.Image = global::Svekla.Properties.Resources.RedisList16;
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            resources.ApplyResources(this.toolStripMenuItem11, "toolStripMenuItem11");
-            // 
-            // toolStripMenuItem12
-            // 
-            this.toolStripMenuItem12.Image = global::Svekla.Properties.Resources.Details16;
-            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            resources.ApplyResources(this.toolStripMenuItem12, "toolStripMenuItem12");
             // 
             // MainForm
             // 
@@ -253,30 +254,30 @@
 
         private System.Windows.Forms.MenuStrip mainMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem mms_program;
-        private System.Windows.Forms.ToolStripMenuItem connectToNewServerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mms_srv_connect;
         private System.Windows.Forms.ToolStripMenuItem mms_help;
-        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem backgroundSaveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem shutdownToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deleteDatabaseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deleteAllDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem exitSveklaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator mms_srv_sep0;
+        private System.Windows.Forms.ToolStripMenuItem mms_ssrv_save;
+        private System.Windows.Forms.ToolStripMenuItem mms_ssrv_bgsave;
+        private System.Windows.Forms.ToolStripMenuItem mms_ssrv_shutdown;
+        private System.Windows.Forms.ToolStripMenuItem mms_ssrv_dropdb;
+        private System.Windows.Forms.ToolStripMenuItem mms_ssrv_dropall;
+        private System.Windows.Forms.ToolStripSeparator mms_srv_sep1;
+        private System.Windows.Forms.ToolStripMenuItem mms_srv_exitapp;
         private System.Windows.Forms.ToolStripMenuItem mms_data;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
+        private System.Windows.Forms.ToolStripMenuItem mms_d_string;
+        private System.Windows.Forms.ToolStripMenuItem mms_d_list;
+        private System.Windows.Forms.ToolStripMenuItem mms_d_set;
+        private System.Windows.Forms.ToolStripMenuItem mms_d_zset;
+        private System.Windows.Forms.ToolStripMenuItem mms_d_hash;
+        private System.Windows.Forms.ToolStripSeparator mms_v_sep0;
+        private System.Windows.Forms.ToolStripMenuItem mms_d_del;
         private System.Windows.Forms.ToolStripMenuItem aboutSveklaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mms_view;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
+        private System.Windows.Forms.ToolStripMenuItem mms_v_large;
+        private System.Windows.Forms.ToolStripMenuItem mms_v_small;
+        private System.Windows.Forms.ToolStripMenuItem mms_v_list;
+        private System.Windows.Forms.ToolStripMenuItem mms_v_details;
     }
 }
 

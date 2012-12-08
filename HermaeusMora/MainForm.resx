@@ -121,52 +121,71 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="connectToNewServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_srv_connect.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="connectToNewServerToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_srv_connect.Text" xml:space="preserve">
     <value>Connect to new server...</value>
   </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_srv_sep0.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 6</value>
   </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_ssrv_save.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_ssrv_save.Text" xml:space="preserve">
     <value>Save</value>
   </data>
-  <data name="backgroundSaveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mms_ssrv_save.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mms_ssrv_bgsave.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="backgroundSaveToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_ssrv_bgsave.Text" xml:space="preserve">
     <value>Background Save</value>
   </data>
-  <data name="shutdownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_ssrv_bgsave.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mms_ssrv_shutdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="shutdownToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_ssrv_shutdown.Text" xml:space="preserve">
     <value>Shutdown</value>
   </data>
-  <data name="deleteDatabaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_ssrv_shutdown.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mms_ssrv_dropdb.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="deleteDatabaseToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_ssrv_dropdb.Text" xml:space="preserve">
     <value>Delete Database</value>
   </data>
-  <data name="deleteAllDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_ssrv_dropdb.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mms_ssrv_dropall.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="deleteAllDataToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_ssrv_dropall.Text" xml:space="preserve">
     <value>Delete All Data</value>
   </data>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_ssrv_dropall.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mms_srv_sep1.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 6</value>
   </data>
-  <data name="exitSveklaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="mms_srv_sep1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mms_srv_exitapp.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 22</value>
   </data>
-  <data name="exitSveklaToolStripMenuItem.Text" xml:space="preserve">
+  <data name="mms_srv_exitapp.Text" xml:space="preserve">
     <value>Exit Svekla</value>
   </data>
   <data name="mms_program.Size" type="System.Drawing.Size, System.Drawing">
@@ -175,74 +194,14 @@
   <data name="mms_program.Text" xml:space="preserve">
     <value>Server</value>
   </data>
-  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="toolStripMenuItem9.Text" xml:space="preserve">
-    <value>Large Icons</value>
-  </data>
-  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="toolStripMenuItem10.Text" xml:space="preserve">
-    <value>Small Icons</value>
-  </data>
-  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="toolStripMenuItem11.Text" xml:space="preserve">
-    <value>List</value>
-  </data>
-  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
-  </data>
-  <data name="toolStripMenuItem12.Text" xml:space="preserve">
-    <value>Details</value>
-  </data>
   <data name="mms_view.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
   <data name="mms_view.Text" xml:space="preserve">
     <value>View</value>
   </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem3.Text" xml:space="preserve">
-    <value>Add String...</value>
-  </data>
-  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem4.Text" xml:space="preserve">
-    <value>Add to List...</value>
-  </data>
-  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem5.Text" xml:space="preserve">
-    <value>Add to Set...</value>
-  </data>
-  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem6.Text" xml:space="preserve">
-    <value>Add to Sorted Set...</value>
-  </data>
-  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem7.Text" xml:space="preserve">
-    <value>Add to Hash...</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 6</value>
-  </data>
-  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem8.Text" xml:space="preserve">
-    <value>Delete Selected Items</value>
+  <data name="mms_view.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mms_data.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 20</value>
@@ -250,11 +209,8 @@
   <data name="mms_data.Text" xml:space="preserve">
     <value>Data</value>
   </data>
-  <data name="aboutSveklaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="aboutSveklaToolStripMenuItem.Text" xml:space="preserve">
-    <value>About Svekla...</value>
+  <data name="mms_data.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mms_help.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
@@ -268,7 +224,6 @@
   <data name="mainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>1008, 24</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="mainMenuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -286,6 +241,75 @@
   </data>
   <data name="&gt;&gt;mainMenuStrip.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="mms_v_sep0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 6</value>
+  </data>
+  <data name="mms_d_del.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_del.Text" xml:space="preserve">
+    <value>Delete Selected Items</value>
+  </data>
+  <data name="mms_v_large.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="mms_v_large.Text" xml:space="preserve">
+    <value>Large Icons</value>
+  </data>
+  <data name="mms_v_small.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="mms_v_small.Text" xml:space="preserve">
+    <value>Small Icons</value>
+  </data>
+  <data name="mms_v_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="mms_v_list.Text" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="mms_v_details.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="mms_v_details.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="mms_d_string.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_string.Text" xml:space="preserve">
+    <value>Add String...</value>
+  </data>
+  <data name="mms_d_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_list.Text" xml:space="preserve">
+    <value>Add to List...</value>
+  </data>
+  <data name="mms_d_set.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_set.Text" xml:space="preserve">
+    <value>Add to Set...</value>
+  </data>
+  <data name="mms_d_zset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_zset.Text" xml:space="preserve">
+    <value>Add to Sorted Set...</value>
+  </data>
+  <data name="mms_d_hash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_hash.Text" xml:space="preserve">
+    <value>Add to Hash...</value>
+  </data>
+  <data name="aboutSveklaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="aboutSveklaToolStripMenuItem.Text" xml:space="preserve">
+    <value>About Svekla...</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2342,6 +2366,10 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 600</value>
   </data>
@@ -2354,10 +2382,10 @@
   <data name="&gt;&gt;mms_program.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;connectToNewServerToolStripMenuItem.Name" xml:space="preserve">
-    <value>connectToNewServerToolStripMenuItem</value>
+  <data name="&gt;&gt;mms_srv_connect.Name" xml:space="preserve">
+    <value>mms_srv_connect</value>
   </data>
-  <data name="&gt;&gt;connectToNewServerToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_srv_connect.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mms_help.Name" xml:space="preserve">
@@ -2366,22 +2394,22 @@
   <data name="&gt;&gt;mms_help.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
+  <data name="&gt;&gt;mms_srv_sep0.Name" xml:space="preserve">
+    <value>mms_srv_sep0</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_srv_sep0.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
-    <value>toolStripMenuItem2</value>
+  <data name="&gt;&gt;mms_srv_sep1.Name" xml:space="preserve">
+    <value>mms_srv_sep1</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_srv_sep1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;exitSveklaToolStripMenuItem.Name" xml:space="preserve">
-    <value>exitSveklaToolStripMenuItem</value>
+  <data name="&gt;&gt;mms_srv_exitapp.Name" xml:space="preserve">
+    <value>mms_srv_exitapp</value>
   </data>
-  <data name="&gt;&gt;exitSveklaToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_srv_exitapp.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mms_data.Name" xml:space="preserve">
@@ -2390,82 +2418,16 @@
   <data name="&gt;&gt;mms_data.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
+  <data name="&gt;&gt;mms_v_sep0.Name" xml:space="preserve">
+    <value>mms_v_sep0</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_v_sep0.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
-    <value>toolStripMenuItem8</value>
+  <data name="&gt;&gt;mms_d_del.Name" xml:space="preserve">
+    <value>mms_d_del</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveToolStripMenuItem.Name" xml:space="preserve">
-    <value>saveToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;saveToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;backgroundSaveToolStripMenuItem.Name" xml:space="preserve">
-    <value>backgroundSaveToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;backgroundSaveToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;shutdownToolStripMenuItem.Name" xml:space="preserve">
-    <value>shutdownToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;shutdownToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;deleteDatabaseToolStripMenuItem.Name" xml:space="preserve">
-    <value>deleteDatabaseToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;deleteDatabaseToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;deleteAllDataToolStripMenuItem.Name" xml:space="preserve">
-    <value>deleteAllDataToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;deleteAllDataToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
-    <value>toolStripMenuItem3</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
-    <value>toolStripMenuItem4</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
-    <value>toolStripMenuItem5</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
-    <value>toolStripMenuItem6</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
-    <value>toolStripMenuItem7</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aboutSveklaToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutSveklaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aboutSveklaToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_d_del.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mms_view.Name" xml:space="preserve">
@@ -2474,28 +2436,94 @@
   <data name="&gt;&gt;mms_view.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem9.Name" xml:space="preserve">
-    <value>toolStripMenuItem9</value>
+  <data name="&gt;&gt;mms_ssrv_save.Name" xml:space="preserve">
+    <value>mms_ssrv_save</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem9.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_ssrv_save.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem10.Name" xml:space="preserve">
-    <value>toolStripMenuItem10</value>
+  <data name="&gt;&gt;mms_ssrv_bgsave.Name" xml:space="preserve">
+    <value>mms_ssrv_bgsave</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem10.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_ssrv_bgsave.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem11.Name" xml:space="preserve">
-    <value>toolStripMenuItem11</value>
+  <data name="&gt;&gt;mms_ssrv_shutdown.Name" xml:space="preserve">
+    <value>mms_ssrv_shutdown</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem11.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_ssrv_shutdown.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem12.Name" xml:space="preserve">
-    <value>toolStripMenuItem12</value>
+  <data name="&gt;&gt;mms_ssrv_dropdb.Name" xml:space="preserve">
+    <value>mms_ssrv_dropdb</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem12.Type" xml:space="preserve">
+  <data name="&gt;&gt;mms_ssrv_dropdb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_ssrv_dropall.Name" xml:space="preserve">
+    <value>mms_ssrv_dropall</value>
+  </data>
+  <data name="&gt;&gt;mms_ssrv_dropall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_v_large.Name" xml:space="preserve">
+    <value>mms_v_large</value>
+  </data>
+  <data name="&gt;&gt;mms_v_large.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_v_small.Name" xml:space="preserve">
+    <value>mms_v_small</value>
+  </data>
+  <data name="&gt;&gt;mms_v_small.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_v_list.Name" xml:space="preserve">
+    <value>mms_v_list</value>
+  </data>
+  <data name="&gt;&gt;mms_v_list.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_v_details.Name" xml:space="preserve">
+    <value>mms_v_details</value>
+  </data>
+  <data name="&gt;&gt;mms_v_details.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_d_string.Name" xml:space="preserve">
+    <value>mms_d_string</value>
+  </data>
+  <data name="&gt;&gt;mms_d_string.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_d_list.Name" xml:space="preserve">
+    <value>mms_d_list</value>
+  </data>
+  <data name="&gt;&gt;mms_d_list.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_d_set.Name" xml:space="preserve">
+    <value>mms_d_set</value>
+  </data>
+  <data name="&gt;&gt;mms_d_set.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_d_zset.Name" xml:space="preserve">
+    <value>mms_d_zset</value>
+  </data>
+  <data name="&gt;&gt;mms_d_zset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_d_hash.Name" xml:space="preserve">
+    <value>mms_d_hash</value>
+  </data>
+  <data name="&gt;&gt;mms_d_hash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutSveklaToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutSveklaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutSveklaToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

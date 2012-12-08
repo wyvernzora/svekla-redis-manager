@@ -170,6 +170,7 @@
     <None Include="Resources\Warning16.png" />
     <None Include="Resources\Info16.png" />
     <None Include="Resources\View161.png" />
+    <None Include="Resources\Exit.png" />
     <Content Include="Svekla.ico" />
     <None Include="Resources\lvk_bg.jpg" />
     <None Include="Resources\Tile16.png" />
