@@ -31,6 +31,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Svekla.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="ServiceStack, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -50,7 +56,7 @@
     </Reference>
     <Reference Include="ServiceStack.Redis, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Redis.dll</HintPath>
+      <HintPath>C:\Users\Jieni\Documents\Visual Studio 2012\Projects\HermaeusMora\HermaeusMora\Libraries\ServiceStack.Redis.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.ServiceInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -157,6 +163,15 @@
   <ItemGroup>
     <Content Include="Libraries\ListViewPrinter.dll" />
     <Content Include="Libraries\SparkleLibrary.dll" />
+    <None Include="Resources\СвеклаGS.png" />
+    <None Include="Resources\Свекла.png" />
+    <None Include="Resources\Save16.png" />
+    <None Include="Resources\Shutdown16.png" />
+    <None Include="Resources\Warning16.png" />
+    <None Include="Resources\Info16.png" />
+    <None Include="Resources\View161.png" />
+    <Content Include="Svekla.ico" />
+    <None Include="Resources\lvk_bg.jpg" />
     <None Include="Resources\Tile16.png" />
     <None Include="Resources\ViewMode16.png" />
     <None Include="Resources\View16.png" />
@@ -194,6 +209,7 @@
       <Name>ObjectListView2010</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

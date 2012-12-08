@@ -14,7 +14,7 @@ namespace Svekla
         public MainForm()
         {
             InitializeComponent();
-            //System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
         }
 
         private void connectToNewServerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -22,6 +22,8 @@ namespace Svekla
             RedisBrowserForm rbf = new RedisBrowserForm();
             rbf.MdiParent = this;
             rbf.Show();
+
+            
         }
     }
 }

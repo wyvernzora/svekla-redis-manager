@@ -165,4 +165,7 @@
   <data name="RBF_ProgressGetInfo" xml:space="preserve">
     <value>Fetching Key Information ({0}/{1})...</value>
   </data>
+  <data name="RBF_TitleConnected" xml:space="preserve">
+    <value>Connected to {0}:{1} (Ping: {2}ms)</value>
+  </data>
 </root>

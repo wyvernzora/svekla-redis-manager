@@ -203,5 +203,14 @@ namespace Svekla.Resources {
                 return ResourceManager.GetString("RBF_ProgressGetInfo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Connected to {0}:{1} (Ping: {2}ms).
+        /// </summary>
+        internal static string RBF_TitleConnected {
+            get {
+                return ResourceManager.GetString("RBF_TitleConnected", resourceCulture);
+            }
+        }
     }
 }

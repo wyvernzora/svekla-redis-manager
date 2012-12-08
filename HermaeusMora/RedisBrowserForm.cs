@@ -74,6 +74,12 @@ namespace Svekla
             stateManager.SetCurrentState("wsConnect");
 
             // Keys List
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT &&
+                (Environment.OSVersion.Version >= new Version(6, 1)))
+            {
+                olvKeys.SetNativeBackgroundWatermark(Properties.Resources.KeyListBG);
+                olvKeys.GridLines = true;
+            }
             olvcKey.ImageGetter = (Object row) =>
                 {
                     RedisTopLevelEntity en = (RedisTopLevelEntity)row;
@@ -81,7 +87,7 @@ namespace Svekla
                 };
 
             // event handlers
-            this.FormClosing += (Object o, FormClosingEventArgs e) => { if (timer.Enabled) timer.Stop(); };
+            this.FormClosing += (Object o, FormClosingEventArgs e) => { if (timer.Enabled) timer.Stop(); if (redisClient != null) redisClient.Dispose(); };
 
             wsLoading.OnActivated += (Object s, EventArgs e) => { loadingIndicator1.Enabled = true; };
             wsLoading.OnDeactivated += (Object s, EventArgs e) => { loadingIndicator1.Enabled = false; };
@@ -113,9 +119,23 @@ namespace Svekla
         public void UpdatePingDelay()
         {
             PingReply reply = serverPing.Send(serverHost, GlobalSettings.Instance.PingTimeout);
+            Dictionary<String, String> srvInfo = redisClient.Info;
+            Int32 srvDbSize = redisClient.DbSize;
+            DateTime lSave = new DateTime(1970, 1, 1, 0, 0, 0, 0);
+            lSave.AddSeconds(Int32.Parse(srvInfo["last_save_time"]));
+
+            
+
             this.BeginInvoke(new Action(() =>
             {
-                this.Text = String.Format("{0}:{1} - {2}ms", serverHost, serverPort, reply.RoundtripTime);
+                this.Text = String.Format(locale.GetString("RBF_TitleConnected"), serverHost, serverPort, reply.RoundtripTime);
+
+                lblSmVersion.Text = String.Format("Redis {0} ({1}bit)", srvInfo["redis_version"], srvInfo["arch_bits"]);
+                lblSmDbSize.Text = String.Format("{0} Keys", srvDbSize);
+                lblSmMem.Text = String.Format("{0}/{1}", srvInfo["used_memory_human"], srvInfo["used_memory_peak_human"]);
+                lblSmLastSave.Text = lSave.ToString();
+                lblSmClients.Text = srvInfo["connected_clients"];
+                
             }));
         }
 
@@ -275,6 +295,9 @@ namespace Svekla
         {
             // start update
             timer.Start();
+
+            // Initialize UI
+            lblSmServerName.Text = String.Format("{0}:{1}", host, port);
 
             // create redis client
             if (pwd.Length > 0)
@@ -437,18 +460,16 @@ namespace Svekla
             }
         }
 
+        private void changeView(object sender, EventArgs e)
+        {
+            if (sender == largeIconsToolStripMenuItem)
+                olvKeys.View = View.LargeIcon;
+            else if (sender == smallIconsToolStripMenuItem)
+                olvKeys.View = View.List;
+            else if (sender == detailsToolStripMenuItem)
+                olvKeys.View = View.Details;
+        }
+
         #endregion
-
-        private void largeIconsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            olvKeys.View = View.LargeIcon;
-        }
-
-        private void tileToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            olvKeys.View = View.Tile;
-
-        }
-
     }
 }
