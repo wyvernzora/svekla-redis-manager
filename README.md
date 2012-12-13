@@ -38,5 +38,8 @@ Parts of this software are based on [ObjectListView](http://objectlistview.sourc
 ## MdiClientController ##
 Advanced MDI client area tweaking was achieved via [MdiClientController component by Jacob Slusser](http://www.codeproject.com/Articles/8489/Getting-a-quot-Handle-quot-on-the-MDI-Client).
 
+## Ripple Demo ##
+Demo in the About dialog is made by me. For more details about water physics simulation see [my blog post](http://www.wyvernzora.com/2012/12/ripple-effect-in-winforms-c.html).
+
 ## Artwork ##
 All icons used within the software are made by me. Illustration on the connection screen by [たかりゃん](http://www.pixiv.net/member.php?id=865499). Illustrations used in loading indicator are by [はりぼて](http://www.pixiv.net/member.php?id=3145937).

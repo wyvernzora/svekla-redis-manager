@@ -105,6 +105,7 @@
             this.MinimizeBox = false;
             this.Name = "SveklaAboutForm";
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "About Svekla Redis Manager...";
             this.Load += new System.EventHandler(this.SveklaAboutForm_Load);
             this.ResumeLayout(false);

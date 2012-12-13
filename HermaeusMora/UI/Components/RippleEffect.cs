@@ -183,7 +183,7 @@ namespace Svekla.UI.Components
                     Double d = Math.Sqrt(Math.Pow(ix - x, 2) + Math.Pow(iy - y, 2));
                     Point p = new Point(ix, iy);
                     if (d < r && effectRect.Contains(p))
-                        frontBuffer[ix + iy * effectRect.Width] = (int)(255 - (512 * (1 - d / r / 2)));
+                        frontBuffer[ix + iy * effectRect.Width] = (int)(255 - (768 * (1 - d / r / 2)));
                 }
             }
         }
