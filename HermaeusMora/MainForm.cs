@@ -5,26 +5,21 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Reflection;
 using System.Windows.Forms;
+using Svekla.UI.Components;
 
 namespace Svekla
 {
     public partial class MainForm : Form
     {
-        const string NOT_CONNECTED_SRV = "none";
+        public const string NOT_CONNECTED_SRV = "none";
 
         public MainForm()
         {
             InitializeComponent();
             System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
-
-            // Some customization of ui
-            MdiClient client = GetMdiClient();
-            client.Paint += (Object s, PaintEventArgs e) =>
-                {
-                    e.Graphics.DrawString("TEST DRAW", this.Font, new SolidBrush(Color.LightGreen), new PointF(0.0f, 0.0f));
-                };
-
+           
             // Event handlers
             this.MdiChildActivate += OnChildActivated;
         }
@@ -53,6 +48,7 @@ namespace Svekla
                 mdiChildren.Add(NOT_CONNECTED_SRV, rbf);
 
                 rbf.Connected += OnChildConnected;
+                rbf.FormClosed += OnChildClosed;
 
                 rbf.Show();
             }
@@ -77,13 +73,27 @@ namespace Svekla
 
         public void OnChildConnected(Object o, EventArgs e)
         {
-            RedisBrowserForm rbf = (RedisBrowserForm)o;
+            if (o is RedisBrowserForm)
+            {
+                RedisBrowserForm rbf = (RedisBrowserForm)o;
 
-            mdiChildren.Remove(NOT_CONNECTED_SRV);
-            mdiChildren.Add(rbf.ServerAddress, rbf);
+                mdiChildren.Remove(NOT_CONNECTED_SRV);
+                mdiChildren.Add(rbf.ServerAddress, rbf);
 
-            OnChildActivated(rbf, null);
-        
+                OnChildActivated(rbf, null);
+            }
+        }
+
+        public void OnChildClosed(Object o, EventArgs e)
+        {
+            if (o is RedisBrowserForm)
+            {
+                RedisBrowserForm rbf = (RedisBrowserForm)o;
+                mdiChildren.Remove(rbf.ServerAddress);
+                // Hide server options
+                mms_ssrv_bgsave.Visible = mms_ssrv_dropall.Visible = mms_ssrv_dropdb.Visible =
+                   mms_ssrv_save.Visible = mms_ssrv_shutdown.Visible = mms_srv_sep1.Visible = false;
+            }
         }
 
         public void OnChildActivated(Object o, EventArgs e)
@@ -102,7 +112,7 @@ namespace Svekla
 
                 // Hide server options
                 mms_ssrv_bgsave.Visible = mms_ssrv_dropall.Visible = mms_ssrv_dropdb.Visible =
-                   mms_ssrv_save.Visible = mms_ssrv_shutdown.Visible = mms_srv_sep1.Visible = true;
+                   mms_ssrv_save.Visible = mms_ssrv_shutdown.Visible = mms_srv_sep1.Visible = false;
 
             }
         }
@@ -115,5 +125,13 @@ namespace Svekla
             AddMdiChild();
             
         }
+
+        private void aboutSveklaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SveklaAboutForm saf = new SveklaAboutForm();
+            //saf.MdiParent = this;
+            saf.ShowDialog();
+        }
+
     }
 }

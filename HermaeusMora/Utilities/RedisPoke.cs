@@ -39,8 +39,15 @@ namespace Svekla.Utilities
         /// <returns>Ping delay</returns>
         public PingReply PingMachine()
         {
-            Ping p = new Ping();
-            return p.Send(host, GlobalSettings.Instance.PingTimeout);
+            try
+            {
+                Ping p = new Ping();
+                return p.Send(host, GlobalSettings.Instance.PingTimeout);
+            }
+            catch
+            {
+                return null;
+            }
         }
 
         /// <summary>

@@ -168,4 +168,14 @@
   <data name="RBF_TitleConnected" xml:space="preserve">
     <value>Connected to {0}:{1} (Ping: {2}ms)</value>
   </data>
+  <data name="RBF_ConnectionInterrupted" xml:space="preserve">
+    <value>Connection with Redis server was interrupted!
+Pussible reasons:
+ - Server machine ping timeout
+ - Client received unexpected data
+ - Client connection was killed</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value> </value>
+  </data>
 </root>

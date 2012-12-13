@@ -16,6 +16,7 @@ using System.Net.Sockets;
 using System.IO;
 using Svekla.Utilities;
 using BrightIdeasSoftware;
+using Svekla.ServiceStack;
 
 namespace Svekla
 {
@@ -24,7 +25,7 @@ namespace Svekla
         // Constants
         const String CACHE_DIR = "cache\\";
 
-        // Parent Form
+        // Parent Form and Related
         MainForm parent;
 
         // Localization
@@ -42,7 +43,8 @@ namespace Svekla
         private Ping serverPing;
 
         // Redis Connection
-        private IRedisClient redisClient;
+        private SveklaRedisClient redisClient;
+        private List<RedisClientInfo> clientList;
 
         // Async Loading
         private BackgroundWorker asyncLoader;
@@ -58,6 +60,9 @@ namespace Svekla
         public RedisBrowserForm(MainForm parent)
         {
             InitializeComponent();
+
+            // Initialize Variables
+            clientList = new List<RedisClientInfo>();
 
             // Mdi
             this.MdiParent = parent;
@@ -101,6 +106,26 @@ namespace Svekla
                     return en.ToString();
             };
 
+            // CLient List
+            AspectToStringConverterDelegate clientValConv = new AspectToStringConverterDelegate((Object o) =>
+                {
+                    Int32 i = (Int32)o;
+                    if (i >= 0) return i.ToString();
+                    else return "N/A";
+                });
+            olvcAge.AspectToStringConverter = clientValConv;
+            olvcDb.AspectToStringConverter = clientValConv;
+            olvcFileHandle.AspectToStringConverter = clientValConv;
+            olvcIdle.AspectToStringConverter = clientValConv;
+            olvcMulti.AspectToStringConverter = clientValConv;
+            olvcObl.AspectToStringConverter = clientValConv;
+            olvcOll.AspectToStringConverter = clientValConv;
+            olvcOmem.AspectToStringConverter = clientValConv;
+            olvcPSub.AspectToStringConverter = clientValConv;
+            olvcQbuf.AspectToStringConverter = clientValConv;
+            olvcQbufF.AspectToStringConverter = clientValConv;
+            olvcSub.AspectToStringConverter = clientValConv;
+
             // event handlers
             this.FormClosing += (Object o, FormClosingEventArgs e) => { if (timer.Enabled) timer.Stop(); if (redisClient != null) redisClient.Dispose(); };
 
@@ -134,45 +159,80 @@ namespace Svekla
         public void UpdatePingDelay()
         {
             PingReply reply = serverPing.Send(serverHost, GlobalSettings.Instance.PingTimeout);
-            Dictionary<String, String> srvInfo = redisClient.Info;
-            Int32 srvDbSize = redisClient.DbSize;
-            DateTime lSave = new DateTime(1970, 1, 1, 0, 0, 0, 0);
-            lSave.AddSeconds(Int32.Parse(srvInfo["last_save_time"]));
+            if (reply.Status != IPStatus.Success) OnConnectionError();
 
-            
-
-            this.BeginInvoke(new Action(() =>
+            try
             {
-                this.Text = String.Format(locale.GetString("RBF_TitleConnected"), serverHost, serverPort, reply.RoundtripTime);
+                Dictionary<String, String> srvInfo = redisClient.Info;
+                Int32 srvDbSize = redisClient.DbSize;
+                DateTime lSave = new DateTime(1970, 1, 1, 0, 0, 0, 0);
+                lSave.AddSeconds(Int32.Parse(srvInfo["last_save_time"]));
 
-                lblSmVersion.Text = String.Format("Redis {0} ({1}bit)", srvInfo["redis_version"], srvInfo["arch_bits"]);
-                lblSmDbSize.Text = String.Format("{0} Keys", srvDbSize);
-                lblSmMem.Text = String.Format("{0}/{1}", srvInfo["used_memory_human"], srvInfo["used_memory_peak_human"]);
-                lblSmLastSave.Text = lSave.ToString();
-                lblSmClients.Text = srvInfo["connected_clients"];
-                
-            }));
+                RedisClientInfo[] clients = redisClient.GetClientList();
+                this.BeginInvoke(new Action(() =>
+                {
+                    this.Text = String.Format(locale.GetString("RBF_TitleConnected"), serverHost, serverPort, reply.RoundtripTime);
+
+                    lblSmVersion.Text = String.Format("Redis {0} ({1}bit)", srvInfo["redis_version"], srvInfo["arch_bits"]);
+                    lblSmDbSize.Text = String.Format("{0} Keys", srvDbSize);
+                    lblSmMem.Text = String.Format("{0}/{1}", srvInfo["used_memory_human"], srvInfo["used_memory_peak_human"]);
+                    lblSmLastSave.Text = lSave.ToString();
+                    lblSmClients.Text = srvInfo["connected_clients"];
+
+                    SyncClientList(clients);
+                }));
+            }
+            catch
+            {
+                OnConnectionError();
+            }
+
         }
 
+        protected override void WndProc(ref Message m)
+        {
+            const int WM_EXITSIZEMOVE = 0x232;
+
+            switch (m.Msg)
+            {
+                case WM_EXITSIZEMOVE:
+                    base.WndProc(ref m);
+                    OnNeedRedrawParent();
+                    break;
+                default:
+                    base.WndProc(ref m);
+                    break;
+            }
+        }
+
+    
         #region MDI Parent Interfacing
 
         // Events
         private EventHandler _onConnected;
+        private EventHandler _onNeedRedrawParent;
 
         public event EventHandler Connected
         { add { _onConnected += value; } remove { _onConnected -= value; } }
+        public event EventHandler NeedRedrawParent
+        { add { _onNeedRedrawParent += value; } remove { _onNeedRedrawParent -= value; } }
 
         private void OnConnected()
         {
             if (_onConnected != null)
                 _onConnected(this, new EventArgs());
         }
+        private void OnNeedRedrawParent()
+        {
+            if (_onNeedRedrawParent != null)
+                _onNeedRedrawParent(this, new EventArgs());
+        }
 
         public Boolean IsConnected
         { get { return redisClient != null; } }
 
         public String ServerAddress
-        { get { return String.Format("{0}:{1}", serverHost, serverPort); } }
+        { get { return serverHost != null ? String.Format("{0}:{1}", serverHost, serverPort) : MainForm.NOT_CONNECTED_SRV; } }
 
 
 
@@ -255,13 +315,13 @@ namespace Svekla
 
                 // try common ping
                 PingReply reply = poke.PingMachine();
-                if (reply.Status == IPStatus.TimedOut)
+                if (reply != null && reply.Status == IPStatus.TimedOut)
                 {
                     // { overallSuccess, statusMessage }
                     arg.Result = new Object[] { false, "RBF_ErrHostTimeout", "" };
                     return;
                 }
-                else if (reply.Status != IPStatus.Success)
+                else if (reply == null || reply.Status != IPStatus.Success)
                 {
                     // { overallSuccess, statusMessage }
                     arg.Result = new Object[] { false, "RBF_ErrHostError", "" };
@@ -303,6 +363,8 @@ namespace Svekla
                     }
                 }
 
+                poke.Dispose();
+
                 arg.Result = new Object[] { true, "", "" };
             };
             bw.RunWorkerCompleted += (Object s, RunWorkerCompletedEventArgs args) =>
@@ -343,18 +405,21 @@ namespace Svekla
 
             // create redis client
             if (pwd.Length > 0)
-                redisClient = new RedisClient(host, port, pwd);
+                redisClient = new SveklaRedisClient(host, port, pwd);
             else
-                redisClient = new RedisClient(host, port);
+                redisClient = new SveklaRedisClient(host, port);
+
+            //redisClient.JMA();
+            RedisClientInfo[] rci = redisClient.GetClientList();
 
             // update ping
             UpdatePingDelay();
 
-            // pull data
-            PullData();
-
             // connected
             OnConnected();
+
+            // pull data
+            PullData();
         }
 
         #endregion
@@ -505,6 +570,44 @@ namespace Svekla
             }
         }
 
+        private void SyncClientList(RedisClientInfo[] clients)
+        {
+            if (clients.Length < clientList.Count)
+                clientList.RemoveRange(clients.Length, clientList.Count - clients.Length);
+
+            for (int i = 0; i < clients.Length; i++)
+            {
+                if (i >= clientList.Count)
+                    clientList.Add(new RedisClientInfo());
+                clients[i].CopyTo(clientList[i]);
+            }
+
+            olvClients.Objects = clientList;
+
+            olvClients.RefreshObjects(clients);
+        }
+
+        private void OnConnectionError()
+        {
+            timer.Enabled = false;
+            if (MessageBox.Show(locale.GetString("RBF_ConnectionInterrupted"), "", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error) == System.Windows.Forms.DialogResult.Cancel)
+                this.Close();
+            else
+            {
+                UpdatePingDelay();
+                timer.Enabled = true;
+            }
+        }
+
         #endregion
+
+        private void cms_c_kill_Click(object sender, EventArgs e)
+        {
+            if (olvClients.SelectedObjects.Count == 0) return;
+            RedisClientInfo rci = (RedisClientInfo)olvClients.SelectedObject;
+
+            redisClient.KillClientConnection(rci);
+
+        }
     }
 }

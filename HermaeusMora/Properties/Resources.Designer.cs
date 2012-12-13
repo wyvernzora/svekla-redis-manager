@@ -143,6 +143,16 @@ namespace Svekla.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MdiBg {
+            get {
+                object obj = ResourceManager.GetObject("MdiBg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RedisHash {
             get {
                 object obj = ResourceManager.GetObject("RedisHash", resourceCulture);
@@ -266,6 +276,36 @@ namespace Svekla.Properties {
         internal static System.Drawing.Bitmap Shutdown16 {
             get {
                 object obj = ResourceManager.GetObject("Shutdown16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap svekla_cell_h {
+            get {
+                object obj = ResourceManager.GetObject("svekla_cell_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap svekla_cell_o {
+            get {
+                object obj = ResourceManager.GetObject("svekla_cell_o", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap svekla_foundops_wm {
+            get {
+                object obj = ResourceManager.GetObject("svekla_foundops_wm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

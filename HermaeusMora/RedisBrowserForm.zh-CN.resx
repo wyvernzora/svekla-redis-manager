@@ -122,7 +122,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAY
-        GwAAAk1TRnQBSQFMAgEBBQEAATABAQEwAQEBMAEAATABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        GwAAAk1TRnQBSQFMAgEBBQEAAVgBAQFYAQEBMAEAATABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABwAMAAWADAAEBAQABCAYAAUgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -245,7 +245,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAc
-        CAAAAk1TRnQBSQFMAgEBBQEAARgBAgEYAQIBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CAAAAk1TRnQBSQFMAgEBBQEAAUABAgFAAQIBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -282,15 +282,57 @@
         BP8BnAE5AckBwwGAAQEBgAEBAYQBIQHJAecBgAEBAYABAQGEASEI/ws=
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="olvcAddress.Text" xml:space="preserve">
+    <value>地址</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>连接到Redis服务器</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="olvcAddress.Width" type="System.Int32, mscorlib">
+    <value>120</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>服务器管理</value>
+  <data name="olvcFileHandle.Text" xml:space="preserve">
+    <value>文件句柄</value>
+  </data>
+  <data name="olvcAge.Text" xml:space="preserve">
+    <value>寿命</value>
+  </data>
+  <data name="olvcIdle.Text" xml:space="preserve">
+    <value>闲置时间</value>
+  </data>
+  <data name="olvcFlags.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="olvcDb.Text" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="olvcSub.Text" xml:space="preserve">
+    <value>订阅</value>
+  </data>
+  <data name="olvcPSub.Text" xml:space="preserve">
+    <value>匹配订阅</value>
+  </data>
+  <data name="olvcMulti.Text" xml:space="preserve">
+    <value>多指令数量</value>
+  </data>
+  <data name="olvcQbuf.Text" xml:space="preserve">
+    <value>检索缓存</value>
+  </data>
+  <data name="olvcQbufF.Text" xml:space="preserve">
+    <value>空闲检索缓存</value>
+  </data>
+  <data name="olvcObl.Text" xml:space="preserve">
+    <value>输出缓存</value>
+  </data>
+  <data name="olvcOll.Text" xml:space="preserve">
+    <value>输出列表</value>
+  </data>
+  <data name="olvcOmem.Text" xml:space="preserve">
+    <value>输出缓存内存</value>
+  </data>
+  <data name="olvcEvents.Text" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="olvcCmd.Text" xml:space="preserve">
+    <value>最后命令</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>客户端列表</value>
@@ -341,86 +383,35 @@
   <data name="lblSmClients.Location" type="System.Drawing.Point, System.Drawing">
     <value>151, 116</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>数据浏览器</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>服务器管理</value>
   </data>
-  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 22</value>
+  <data name="olvcKey.Text" xml:space="preserve">
+    <value>键</value>
   </data>
-  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
-    <value>添加项</value>
+  <data name="olvcType.Text" xml:space="preserve">
+    <value>类型</value>
   </data>
-  <data name="stringToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="stringToolStripMenuItem.Text" xml:space="preserve">
-    <value>字符串</value>
-  </data>
-  <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="listToolStripMenuItem.Text" xml:space="preserve">
-    <value>列表</value>
-  </data>
-  <data name="hashToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="hashToolStripMenuItem.Text" xml:space="preserve">
-    <value>散列表</value>
-  </data>
-  <data name="setToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="setToolStripMenuItem.Text" xml:space="preserve">
-    <value>集合</value>
-  </data>
-  <data name="sortedSetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="sortedSetToolStripMenuItem.Text" xml:space="preserve">
-    <value>有序集合</value>
-  </data>
-  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 22</value>
-  </data>
-  <data name="toolStripButton1.Text" xml:space="preserve">
-    <value>删除项</value>
-  </data>
-  <data name="toolStripDropDownButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 22</value>
-  </data>
-  <data name="toolStripDropDownButton2.Text" xml:space="preserve">
-    <value>视图</value>
-  </data>
-  <data name="largeIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="largeIconsToolStripMenuItem.Text" xml:space="preserve">
-    <value>大图标</value>
-  </data>
-  <data name="smallIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="smallIconsToolStripMenuItem.Text" xml:space="preserve">
-    <value>小图标</value>
-  </data>
-  <data name="detailsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="detailsToolStripMenuItem.Text" xml:space="preserve">
-    <value>详细信息</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>数据项</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>属性</value>
+  <data name="olvcTTL.Text" xml:space="preserve">
+    <value>过期</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>搜索</value>
   </data>
   <data name="cueTextBox1.CueText" xml:space="preserve">
     <value>搜索</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>数据项</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 100</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>数据浏览器</value>
   </data>
   <data name="lblConnectTitle.Text" xml:space="preserve">
     <value>连接到Redis服务器</value>
@@ -445,5 +436,8 @@
   </data>
   <data name="lblLoadingStatusTitle.Text" xml:space="preserve">
     <value>努力加载数据中…</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>连接到Redis服务器</value>
   </data>
 </root>

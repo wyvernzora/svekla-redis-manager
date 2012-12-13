@@ -70,7 +70,7 @@ namespace Svekla.Persistence
         #endregion
 
 
-        private Int32 pingInterval = 5000;
+        private Int32 pingInterval = 1000;
         public Int32 PingInterval
         {
             get { return pingInterval; }

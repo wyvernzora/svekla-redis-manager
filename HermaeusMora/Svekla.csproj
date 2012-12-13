@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -99,7 +100,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Locale.resx</DependentUpon>
     </Compile>
+    <Compile Include="ServiceStack\RedisClientInfo.cs" />
+    <Compile Include="ServiceStack\RedisCommandsEx.cs" />
     <Compile Include="ServiceStack\SveklaRedisClient.cs" />
+    <Compile Include="SveklaAboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SveklaAboutForm.Designer.cs">
+      <DependentUpon>SveklaAboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Components\MdiClientController.cs" />
+    <Compile Include="UI\Components\RippleEffect.cs" />
     <Compile Include="UI\Controls\ComboBoxWM.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -108,6 +119,9 @@
     </Compile>
     <Compile Include="UI\Controls\LoadingIndicator.Designer.cs">
       <DependentUpon>LoadingIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\SveklaPulsar.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="UI\Controls\TextBoxWM.cs">
       <SubType>Component</SubType>
@@ -147,6 +161,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Locale.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SveklaAboutForm.resx">
+      <DependentUpon>SveklaAboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -168,6 +185,10 @@
     <None Include="Resources\Info16.png" />
     <None Include="Resources\View161.png" />
     <None Include="Resources\Exit.png" />
+    <None Include="Resources\MdiBG.png" />
+    <None Include="Resources\svekla_cell_h.png" />
+    <None Include="Resources\svekla_cell_o.png" />
+    <None Include="Resources\svekla_foundops_wm.png" />
     <Content Include="Svekla.ico" />
     <None Include="Resources\lvk_bg.jpg" />
     <None Include="Resources\Tile16.png" />
@@ -202,13 +223,13 @@
     <Content Include="Libraries\ServiceStack.Text.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\ServiceStack.Redis.csproj">
-      <Project>{af99f19b-4c04-4f58-81ef-b092f1fcc540}</Project>
-      <Name>ServiceStack.Redis</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ObjectListView\ObjectListView2010.csproj">
       <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
       <Name>ObjectListView2010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStack.Redis\ServiceStack.Redis.csproj">
+      <Project>{af99f19b-4c04-4f58-81ef-b092f1fcc540}</Project>
+      <Name>ServiceStack.Redis</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

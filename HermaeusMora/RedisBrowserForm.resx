@@ -125,7 +125,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAY
-        GwAAAk1TRnQBSQFMAgEBBQEAAWABAgFgAQIBMAEAATABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        GwAAAk1TRnQBSQFMAgEBBQEAAfwBAgH8AQIBMAEAATABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABwAMAAWADAAEBAQABCAYAAUgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -251,7 +251,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAc
-        CAAAAk1TRnQBSQFMAgEBBQEAAUgBAwFIAQMBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CAAAAk1TRnQBSQFMAgEBBQEAAeQBAwHkAQMBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -308,13 +308,169 @@
   <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="olvcAddress.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="olvcAddress.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="olvcFileHandle.DisplayIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="olvcFileHandle.Text" xml:space="preserve">
+    <value>File Handle</value>
+  </data>
+  <data name="olvcFileHandle.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="olvcAge.DisplayIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="olvcAge.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="olvcIdle.Text" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="olvcFlags.Text" xml:space="preserve">
+    <value>Flags</value>
+  </data>
+  <data name="olvcDb.Text" xml:space="preserve">
+    <value>DB</value>
+  </data>
+  <data name="olvcSub.DisplayIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="olvcSub.Text" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="olvcSub.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="olvcPSub.DisplayIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="olvcPSub.Text" xml:space="preserve">
+    <value>Pattern Subscriptions</value>
+  </data>
+  <data name="olvcPSub.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="olvcMulti.DisplayIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="olvcMulti.Text" xml:space="preserve">
+    <value>Multi Count</value>
+  </data>
+  <data name="olvcMulti.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="olvcQbuf.DisplayIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="olvcQbuf.Text" xml:space="preserve">
+    <value>Query Buffer</value>
+  </data>
+  <data name="olvcQbuf.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="olvcQbufF.DisplayIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="olvcQbufF.Text" xml:space="preserve">
+    <value>Free Query Buffer</value>
+  </data>
+  <data name="olvcQbufF.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="olvcObl.DisplayIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="olvcObl.Text" xml:space="preserve">
+    <value>Output Buffer</value>
+  </data>
+  <data name="olvcObl.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="olvcOll.DisplayIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="olvcOll.Text" xml:space="preserve">
+    <value>Output List</value>
+  </data>
+  <data name="olvcOll.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="olvcOmem.DisplayIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="olvcOmem.Text" xml:space="preserve">
+    <value>Output Memory</value>
+  </data>
+  <data name="olvcOmem.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="olvcEvents.DisplayIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="olvcEvents.Text" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="olvcCmd.Text" xml:space="preserve">
+    <value>Last Command</value>
+  </data>
+  <data name="olvcCmd.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <metadata name="cmsClient.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>647, 17</value>
+  </metadata>
+  <data name="cms_c_kill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="cms_c_kill.Text" xml:space="preserve">
+    <value>Kill Client Connection</value>
+  </data>
+  <data name="cmsClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 48</value>
+  </data>
+  <data name="&gt;&gt;cmsClient.Name" xml:space="preserve">
+    <value>cmsClient</value>
+  </data>
+  <data name="&gt;&gt;cmsClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="olvClients.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="olvClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="olvClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 190</value>
+  </data>
+  <data name="olvClients.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;olvClients.Name" xml:space="preserve">
+    <value>olvClients</value>
+  </data>
+  <data name="&gt;&gt;olvClients.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.FastObjectListView, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvClients.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;olvClients.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 149</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>663, 211</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -937,7 +1093,7 @@
     <value>0, 0</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 309</value>
+    <value>96, 100</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1120,7 +1276,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;wsConnected.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="gbConnectInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1423,7 +1579,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;wsConnect.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1615,10 +1771,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;wsLoading.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>720, 480</value>
@@ -1647,11 +1806,113 @@
   <data name="&gt;&gt;errors.Type" xml:space="preserve">
     <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;olvcFileHandle.Name" xml:space="preserve">
+    <value>olvcFileHandle</value>
+  </data>
+  <data name="&gt;&gt;olvcFileHandle.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcAge.Name" xml:space="preserve">
+    <value>olvcAge</value>
+  </data>
+  <data name="&gt;&gt;olvcAge.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcSub.Name" xml:space="preserve">
+    <value>olvcSub</value>
+  </data>
+  <data name="&gt;&gt;olvcSub.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcPSub.Name" xml:space="preserve">
+    <value>olvcPSub</value>
+  </data>
+  <data name="&gt;&gt;olvcPSub.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcMulti.Name" xml:space="preserve">
+    <value>olvcMulti</value>
+  </data>
+  <data name="&gt;&gt;olvcMulti.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcQbuf.Name" xml:space="preserve">
+    <value>olvcQbuf</value>
+  </data>
+  <data name="&gt;&gt;olvcQbuf.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcQbufF.Name" xml:space="preserve">
+    <value>olvcQbufF</value>
+  </data>
+  <data name="&gt;&gt;olvcQbufF.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcObl.Name" xml:space="preserve">
+    <value>olvcObl</value>
+  </data>
+  <data name="&gt;&gt;olvcObl.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcOll.Name" xml:space="preserve">
+    <value>olvcOll</value>
+  </data>
+  <data name="&gt;&gt;olvcOll.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcOmem.Name" xml:space="preserve">
+    <value>olvcOmem</value>
+  </data>
+  <data name="&gt;&gt;olvcOmem.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcEvents.Name" xml:space="preserve">
+    <value>olvcEvents</value>
+  </data>
+  <data name="&gt;&gt;olvcEvents.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
   </data>
   <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cms_c_kill.Name" xml:space="preserve">
+    <value>cms_c_kill</value>
+  </data>
+  <data name="&gt;&gt;cms_c_kill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvcAddress.Name" xml:space="preserve">
+    <value>olvcAddress</value>
+  </data>
+  <data name="&gt;&gt;olvcAddress.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcIdle.Name" xml:space="preserve">
+    <value>olvcIdle</value>
+  </data>
+  <data name="&gt;&gt;olvcIdle.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcFlags.Name" xml:space="preserve">
+    <value>olvcFlags</value>
+  </data>
+  <data name="&gt;&gt;olvcFlags.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcDb.Name" xml:space="preserve">
+    <value>olvcDb</value>
+  </data>
+  <data name="&gt;&gt;olvcDb.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvcCmd.Name" xml:space="preserve">
+    <value>olvcCmd</value>
+  </data>
+  <data name="&gt;&gt;olvcCmd.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.5.1.7166, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
   </data>
   <data name="&gt;&gt;olvcKey.Name" xml:space="preserve">
     <value>olvcKey</value>

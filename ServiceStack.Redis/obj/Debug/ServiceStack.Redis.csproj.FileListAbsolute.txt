@@ -1,0 +1,15 @@
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\bin\Debug\ServiceStack.Redis.dll
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\bin\Debug\ServiceStack.Redis.pdb
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\bin\Debug\ServiceStack.Common.dll
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\bin\Debug\ServiceStack.Interfaces.dll
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\bin\Debug\ServiceStack.Text.dll
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\bin\Debug\ServiceStack.Text.xml
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\obj\Debug\ServiceStack.Redis.csprojResolveAssemblyReference.cache
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\obj\Debug\ServiceStack.Redis.dll
+D:\Projects\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\obj\Debug\ServiceStack.Redis.pdb
+D:\Projects\SveklaRediaManager\svekla-redis-manager\ServiceStack.Redis\bin\Debug\ServiceStack.Redis.dll
+D:\Projects\SveklaRediaManager\svekla-redis-manager\ServiceStack.Redis\bin\Debug\ServiceStack.Redis.pdb
+D:\Projects\SveklaRediaManager\svekla-redis-manager\ServiceStack.Redis\bin\Debug\ServiceStack.Text.xml
+D:\Projects\SveklaRediaManager\svekla-redis-manager\ServiceStack.Redis\obj\Debug\ServiceStack.Redis.csprojResolveAssemblyReference.cache
+D:\Projects\SveklaRediaManager\svekla-redis-manager\ServiceStack.Redis\obj\Debug\ServiceStack.Redis.dll
+D:\Projects\SveklaRediaManager\svekla-redis-manager\ServiceStack.Redis\obj\Debug\ServiceStack.Redis.pdb

@@ -33,11 +33,30 @@
             this.largeImgList = new System.Windows.Forms.ImageList(this.components);
             this.smallImgList = new System.Windows.Forms.ImageList(this.components);
             this.errors = new System.Windows.Forms.ErrorProvider(this.components);
+            this.olvcFileHandle = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcAge = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcSub = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcPSub = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcMulti = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcQbuf = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcQbufF = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcObl = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcOll = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcOmem = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcEvents = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.cmsClient = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cms_c_kill = new System.Windows.Forms.ToolStripMenuItem();
             this.wsConnected = new Svekla.UI.Nightingale.WizardState();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.olvClients = new BrightIdeasSoftware.FastObjectListView();
+            this.olvcAddress = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcIdle = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcFlags = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcDb = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvcCmd = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblSmServerName = new System.Windows.Forms.Label();
@@ -81,9 +100,12 @@
             this.lblLoadingStatusTitle = new System.Windows.Forms.Label();
             this.loadingIndicator1 = new Svekla.UI.Controls.LoadingIndicator();
             ((System.ComponentModel.ISupportInitialize)(this.errors)).BeginInit();
+            this.cmsClient.SuspendLayout();
             this.wsConnected.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.olvClients)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
@@ -124,6 +146,86 @@
             // 
             this.errors.ContainerControl = this;
             // 
+            // olvcFileHandle
+            // 
+            this.olvcFileHandle.AspectName = "FileDescriptor";
+            resources.ApplyResources(this.olvcFileHandle, "olvcFileHandle");
+            this.olvcFileHandle.IsVisible = false;
+            // 
+            // olvcAge
+            // 
+            this.olvcAge.AspectName = "Age";
+            resources.ApplyResources(this.olvcAge, "olvcAge");
+            this.olvcAge.IsVisible = false;
+            // 
+            // olvcSub
+            // 
+            this.olvcSub.AspectName = "Subscriptions";
+            resources.ApplyResources(this.olvcSub, "olvcSub");
+            this.olvcSub.IsVisible = false;
+            // 
+            // olvcPSub
+            // 
+            this.olvcPSub.AspectName = "PatternSubscriptions";
+            resources.ApplyResources(this.olvcPSub, "olvcPSub");
+            this.olvcPSub.IsVisible = false;
+            // 
+            // olvcMulti
+            // 
+            this.olvcMulti.AspectName = "MultiCommandCount";
+            resources.ApplyResources(this.olvcMulti, "olvcMulti");
+            this.olvcMulti.IsVisible = false;
+            // 
+            // olvcQbuf
+            // 
+            this.olvcQbuf.AspectName = "QueryBufferLength";
+            resources.ApplyResources(this.olvcQbuf, "olvcQbuf");
+            this.olvcQbuf.IsVisible = false;
+            // 
+            // olvcQbufF
+            // 
+            this.olvcQbufF.AspectName = "QueryBufferFree";
+            resources.ApplyResources(this.olvcQbufF, "olvcQbufF");
+            this.olvcQbufF.IsVisible = false;
+            // 
+            // olvcObl
+            // 
+            this.olvcObl.AspectName = "OutputBufferLength";
+            resources.ApplyResources(this.olvcObl, "olvcObl");
+            this.olvcObl.IsVisible = false;
+            // 
+            // olvcOll
+            // 
+            this.olvcOll.AspectName = "OutputListLength";
+            resources.ApplyResources(this.olvcOll, "olvcOll");
+            this.olvcOll.IsVisible = false;
+            // 
+            // olvcOmem
+            // 
+            this.olvcOmem.AspectName = "OutputBufferMemory";
+            resources.ApplyResources(this.olvcOmem, "olvcOmem");
+            this.olvcOmem.IsVisible = false;
+            // 
+            // olvcEvents
+            // 
+            this.olvcEvents.AspectName = "Events";
+            resources.ApplyResources(this.olvcEvents, "olvcEvents");
+            this.olvcEvents.IsVisible = false;
+            // 
+            // cmsClient
+            // 
+            this.cmsClient.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cms_c_kill});
+            this.cmsClient.Name = "cmsClient";
+            resources.ApplyResources(this.cmsClient, "cmsClient");
+            // 
+            // cms_c_kill
+            // 
+            this.cms_c_kill.Image = global::Svekla.Properties.Resources.Warning16;
+            this.cms_c_kill.Name = "cms_c_kill";
+            resources.ApplyResources(this.cms_c_kill, "cms_c_kill");
+            this.cms_c_kill.Click += new System.EventHandler(this.cms_c_kill_Click);
+            // 
             // wsConnected
             // 
             this.wsConnected.BackColor = System.Drawing.SystemColors.Control;
@@ -154,8 +256,70 @@
             // groupBox3
             // 
             resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Controls.Add(this.olvClients);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
+            // 
+            // olvClients
+            // 
+            this.olvClients.AllColumns.Add(this.olvcAddress);
+            this.olvClients.AllColumns.Add(this.olvcFileHandle);
+            this.olvClients.AllColumns.Add(this.olvcAge);
+            this.olvClients.AllColumns.Add(this.olvcIdle);
+            this.olvClients.AllColumns.Add(this.olvcFlags);
+            this.olvClients.AllColumns.Add(this.olvcDb);
+            this.olvClients.AllColumns.Add(this.olvcSub);
+            this.olvClients.AllColumns.Add(this.olvcPSub);
+            this.olvClients.AllColumns.Add(this.olvcMulti);
+            this.olvClients.AllColumns.Add(this.olvcQbuf);
+            this.olvClients.AllColumns.Add(this.olvcQbufF);
+            this.olvClients.AllColumns.Add(this.olvcObl);
+            this.olvClients.AllColumns.Add(this.olvcOll);
+            this.olvClients.AllColumns.Add(this.olvcOmem);
+            this.olvClients.AllColumns.Add(this.olvcEvents);
+            this.olvClients.AllColumns.Add(this.olvcCmd);
+            this.olvClients.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.olvcAddress,
+            this.olvcIdle,
+            this.olvcFlags,
+            this.olvcDb,
+            this.olvcCmd});
+            this.olvClients.ContextMenuStrip = this.cmsClient;
+            resources.ApplyResources(this.olvClients, "olvClients");
+            this.olvClients.FullRowSelect = true;
+            this.olvClients.GridLines = true;
+            this.olvClients.Name = "olvClients";
+            this.olvClients.ShowGroups = false;
+            this.olvClients.UseCompatibleStateImageBehavior = false;
+            this.olvClients.View = System.Windows.Forms.View.Details;
+            this.olvClients.VirtualMode = true;
+            // 
+            // olvcAddress
+            // 
+            this.olvcAddress.AspectName = "Address";
+            this.olvcAddress.FillsFreeSpace = true;
+            this.olvcAddress.MinimumWidth = 120;
+            resources.ApplyResources(this.olvcAddress, "olvcAddress");
+            // 
+            // olvcIdle
+            // 
+            this.olvcIdle.AspectName = "IdleTime";
+            resources.ApplyResources(this.olvcIdle, "olvcIdle");
+            // 
+            // olvcFlags
+            // 
+            this.olvcFlags.AspectName = "Flags";
+            resources.ApplyResources(this.olvcFlags, "olvcFlags");
+            // 
+            // olvcDb
+            // 
+            this.olvcDb.AspectName = "DB";
+            resources.ApplyResources(this.olvcDb, "olvcDb");
+            // 
+            // olvcCmd
+            // 
+            this.olvcCmd.AspectName = "LastCommand";
+            resources.ApplyResources(this.olvcCmd, "olvcCmd");
             // 
             // tableLayoutPanel1
             // 
@@ -454,10 +618,13 @@
             this.Controls.Add(this.wsLoading);
             this.Name = "RedisBrowserForm";
             ((System.ComponentModel.ISupportInitialize)(this.errors)).EndInit();
+            this.cmsClient.ResumeLayout(false);
             this.wsConnected.ResumeLayout(false);
             this.wsConnected.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.olvClients)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -532,5 +699,24 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblSmClients;
         private System.Windows.Forms.GroupBox groupBox3;
+        private BrightIdeasSoftware.FastObjectListView olvClients;
+        private BrightIdeasSoftware.OLVColumn olvcAddress;
+        private BrightIdeasSoftware.OLVColumn olvcFileHandle;
+        private BrightIdeasSoftware.OLVColumn olvcAge;
+        private BrightIdeasSoftware.OLVColumn olvcIdle;
+        private BrightIdeasSoftware.OLVColumn olvcFlags;
+        private BrightIdeasSoftware.OLVColumn olvcDb;
+        private BrightIdeasSoftware.OLVColumn olvcSub;
+        private BrightIdeasSoftware.OLVColumn olvcPSub;
+        private BrightIdeasSoftware.OLVColumn olvcMulti;
+        private BrightIdeasSoftware.OLVColumn olvcQbuf;
+        private BrightIdeasSoftware.OLVColumn olvcQbufF;
+        private BrightIdeasSoftware.OLVColumn olvcObl;
+        private BrightIdeasSoftware.OLVColumn olvcOll;
+        private BrightIdeasSoftware.OLVColumn olvcOmem;
+        private BrightIdeasSoftware.OLVColumn olvcEvents;
+        private BrightIdeasSoftware.OLVColumn olvcCmd;
+        private System.Windows.Forms.ContextMenuStrip cmsClient;
+        private System.Windows.Forms.ToolStripMenuItem cms_c_kill;
     }
 }

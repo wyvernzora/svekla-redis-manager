@@ -194,6 +194,30 @@
   <data name="mms_program.Text" xml:space="preserve">
     <value>Server</value>
   </data>
+  <data name="mms_v_large.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="mms_v_large.Text" xml:space="preserve">
+    <value>Large Icons</value>
+  </data>
+  <data name="mms_v_small.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="mms_v_small.Text" xml:space="preserve">
+    <value>Small Icons</value>
+  </data>
+  <data name="mms_v_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="mms_v_list.Text" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="mms_v_details.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="mms_v_details.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
   <data name="mms_view.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
@@ -202,78 +226,6 @@
   </data>
   <data name="mms_view.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="mms_data.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
-  </data>
-  <data name="mms_data.Text" xml:space="preserve">
-    <value>Data</value>
-  </data>
-  <data name="mms_data.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mms_help.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="mms_help.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="mainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="mainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 24</value>
-  </data>
-  <data name="mainMenuStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="mainMenuStrip.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;mainMenuStrip.Name" xml:space="preserve">
-    <value>mainMenuStrip</value>
-  </data>
-  <data name="&gt;&gt;mainMenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mainMenuStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mainMenuStrip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mms_v_sep0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 6</value>
-  </data>
-  <data name="mms_d_del.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="mms_d_del.Text" xml:space="preserve">
-    <value>Delete Selected Items</value>
-  </data>
-  <data name="mms_v_large.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="mms_v_large.Text" xml:space="preserve">
-    <value>Large Icons</value>
-  </data>
-  <data name="mms_v_small.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="mms_v_small.Text" xml:space="preserve">
-    <value>Small Icons</value>
-  </data>
-  <data name="mms_v_list.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="mms_v_list.Text" xml:space="preserve">
-    <value>List</value>
-  </data>
-  <data name="mms_v_details.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="mms_v_details.Text" xml:space="preserve">
-    <value>Details</value>
   </data>
   <data name="mms_d_string.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 22</value>
@@ -305,12 +257,63 @@
   <data name="mms_d_hash.Text" xml:space="preserve">
     <value>Add to Hash...</value>
   </data>
+  <data name="mms_v_sep0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 6</value>
+  </data>
+  <data name="mms_d_del.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="mms_d_del.Text" xml:space="preserve">
+    <value>Delete Selected Items</value>
+  </data>
+  <data name="mms_data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="mms_data.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="mms_data.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="aboutSveklaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
   <data name="aboutSveklaToolStripMenuItem.Text" xml:space="preserve">
     <value>About Svekla...</value>
   </data>
+  <data name="mms_help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="mms_help.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="mainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 24</value>
+  </data>
+  <data name="mainMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mainMenuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.Name" xml:space="preserve">
+    <value>mainMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainMenuStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="mdiController.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>152, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2366,10 +2369,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 600</value>
   </data>
@@ -2388,53 +2387,11 @@
   <data name="&gt;&gt;mms_srv_connect.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mms_help.Name" xml:space="preserve">
-    <value>mms_help</value>
-  </data>
-  <data name="&gt;&gt;mms_help.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;mms_srv_sep0.Name" xml:space="preserve">
     <value>mms_srv_sep0</value>
   </data>
   <data name="&gt;&gt;mms_srv_sep0.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mms_srv_sep1.Name" xml:space="preserve">
-    <value>mms_srv_sep1</value>
-  </data>
-  <data name="&gt;&gt;mms_srv_sep1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mms_srv_exitapp.Name" xml:space="preserve">
-    <value>mms_srv_exitapp</value>
-  </data>
-  <data name="&gt;&gt;mms_srv_exitapp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mms_data.Name" xml:space="preserve">
-    <value>mms_data</value>
-  </data>
-  <data name="&gt;&gt;mms_data.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mms_v_sep0.Name" xml:space="preserve">
-    <value>mms_v_sep0</value>
-  </data>
-  <data name="&gt;&gt;mms_v_sep0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mms_d_del.Name" xml:space="preserve">
-    <value>mms_d_del</value>
-  </data>
-  <data name="&gt;&gt;mms_d_del.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mms_view.Name" xml:space="preserve">
-    <value>mms_view</value>
-  </data>
-  <data name="&gt;&gt;mms_view.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mms_ssrv_save.Name" xml:space="preserve">
     <value>mms_ssrv_save</value>
@@ -2466,6 +2423,24 @@
   <data name="&gt;&gt;mms_ssrv_dropall.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;mms_srv_sep1.Name" xml:space="preserve">
+    <value>mms_srv_sep1</value>
+  </data>
+  <data name="&gt;&gt;mms_srv_sep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_srv_exitapp.Name" xml:space="preserve">
+    <value>mms_srv_exitapp</value>
+  </data>
+  <data name="&gt;&gt;mms_srv_exitapp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_view.Name" xml:space="preserve">
+    <value>mms_view</value>
+  </data>
+  <data name="&gt;&gt;mms_view.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;mms_v_large.Name" xml:space="preserve">
     <value>mms_v_large</value>
   </data>
@@ -2488,6 +2463,12 @@
     <value>mms_v_details</value>
   </data>
   <data name="&gt;&gt;mms_v_details.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_data.Name" xml:space="preserve">
+    <value>mms_data</value>
+  </data>
+  <data name="&gt;&gt;mms_data.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mms_d_string.Name" xml:space="preserve">
@@ -2520,11 +2501,35 @@
   <data name="&gt;&gt;mms_d_hash.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;mms_v_sep0.Name" xml:space="preserve">
+    <value>mms_v_sep0</value>
+  </data>
+  <data name="&gt;&gt;mms_v_sep0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_d_del.Name" xml:space="preserve">
+    <value>mms_d_del</value>
+  </data>
+  <data name="&gt;&gt;mms_d_del.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mms_help.Name" xml:space="preserve">
+    <value>mms_help</value>
+  </data>
+  <data name="&gt;&gt;mms_help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;aboutSveklaToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutSveklaToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;aboutSveklaToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mdiController.Name" xml:space="preserve">
+    <value>mdiController</value>
+  </data>
+  <data name="&gt;&gt;mdiController.Type" xml:space="preserve">
+    <value>Svekla.UI.Components.MdiClientController, Svekla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

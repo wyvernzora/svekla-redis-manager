@@ -106,6 +106,19 @@ namespace Svekla.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Connection with Redis server was interrupted!
+        ///Pussible reasons:
+        /// - Server machine ping timeout
+        /// - Client received unexpected data
+        /// - Client connection was killed.
+        /// </summary>
+        internal static string RBF_ConnectionInterrupted {
+            get {
+                return ResourceManager.GetString("RBF_ConnectionInterrupted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unknown connection error: {0}.
         /// </summary>
         internal static string RBF_ErrHostError {
@@ -210,6 +223,15 @@ namespace Svekla.Resources {
         internal static string RBF_TitleConnected {
             get {
                 return ResourceManager.GetString("RBF_TitleConnected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  .
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
     }
