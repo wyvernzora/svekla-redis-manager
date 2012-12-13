@@ -41,14 +41,14 @@
     </Reference>
     <Reference Include="ServiceStack.Interfaces, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Interfaces.dll</HintPath>
+      <HintPath>..\HermaeusMora\Libraries\ServiceStack.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.OrmLite">
       <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.OrmLite.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Redis, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.Redis.dll</HintPath>
+      <HintPath>..\HermaeusMora\Libraries\ServiceStack.Redis.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.ServiceInterface">
       <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.ServiceInterface.dll</HintPath>
