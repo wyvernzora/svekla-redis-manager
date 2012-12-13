@@ -1,3 +1,4 @@
+![](https://github.com/jluchiji/svekla-redis-manager/raw/master/HermaeusMora/Resources/%D0%A1%D0%B2%D0%B5%D0%BA%D0%BB%D0%B0.png)
 Svekla Redis Manager
 ====================
 
@@ -20,6 +21,11 @@ At this moment manager can connect to Redis databases and detect different types
 When connecting to a server for the first time, the program may require some time to pull key list and associated info. Well.. it may not even be "brief".. though I made a nice loading animation so it won't be boring. All the loaded data is cached locally so that after the first time it won't be necessary to pull data again. In the current version of the program local cache **is not maintained** so changes on the server side are not reflected locally unless going through the pull-data process again. I think that I will come up with a mechanism that will update information in the background without blocking any user operations.
 
 It is planned to support pretty much all Redis server commands, though no concrete plans have been established.
+
+# Cloning This Repository #
+
+Due to certain limitations of the original ServiceStack.Redis project, Svekla uses a custom fork of the ServiceStack.Redis that can be found [here](https://github.com/jluchiji/ServiceStack.Redis). If you clone Svekla Redis Manager repository, please clone my ServiceStack.Redis fork as well. Then, if ServiceStack.Redis project shows broken, remove it and add the fork you cloned to the Svekla solution.
+
 
 # Attributions #
 

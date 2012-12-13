@@ -94,11 +94,11 @@ namespace Svekla
                 };
             olvcTTL.AspectToStringConverter = delegate(Object o)
             {
-                RedisTopLevelEntity en = (RedisTopLevelEntity)o;
-                if (en.ExpiresAt == null || en.ExpiresAt < DateTime.Now)
+                DateTime en = (DateTime)o;
+                if (en == null || en < DateTime.Now)
                     return "N/A";
                 else
-                    return en.ExpiresAt.ToString();
+                    return en.ToString();
             };
 
             // event handlers

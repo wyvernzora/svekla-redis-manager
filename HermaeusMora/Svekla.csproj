@@ -54,10 +54,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.OrmLite.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Redis, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Jieni\Documents\Visual Studio 2012\Projects\HermaeusMora\HermaeusMora\Libraries\ServiceStack.Redis.dll</HintPath>
-    </Reference>
     <Reference Include="ServiceStack.ServiceInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\Projects\TaskOptimizer\TaskOptimizer\ServiceStack\ServiceStack.ServiceInterface.dll</HintPath>
@@ -103,6 +99,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Locale.resx</DependentUpon>
     </Compile>
+    <Compile Include="ServiceStack\SveklaRedisClient.cs" />
     <Compile Include="UI\Controls\ComboBoxWM.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -205,6 +202,10 @@
     <Content Include="Libraries\ServiceStack.Text.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ServiceStack Redis Fork\ServiceStack.Redis\src\ServiceStack.Redis\ServiceStack.Redis.csproj">
+      <Project>{af99f19b-4c04-4f58-81ef-b092f1fcc540}</Project>
+      <Name>ServiceStack.Redis</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ObjectListView\ObjectListView2010.csproj">
       <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
       <Name>ObjectListView2010</Name>

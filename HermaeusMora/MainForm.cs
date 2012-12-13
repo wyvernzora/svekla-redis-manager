@@ -18,6 +18,13 @@ namespace Svekla
             InitializeComponent();
             System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
 
+            // Some customization of ui
+            MdiClient client = GetMdiClient();
+            client.Paint += (Object s, PaintEventArgs e) =>
+                {
+                    e.Graphics.DrawString("TEST DRAW", this.Font, new SolidBrush(Color.LightGreen), new PointF(0.0f, 0.0f));
+                };
+
             // Event handlers
             this.MdiChildActivate += OnChildActivated;
         }
@@ -25,6 +32,16 @@ namespace Svekla
         #region MDI Children Management/Interfacing
 
         Dictionary<String, RedisBrowserForm> mdiChildren = new Dictionary<string, RedisBrowserForm>();
+
+        public MdiClient GetMdiClient()
+        {
+            foreach (Control c in this.Controls)
+            {
+                if (c is MdiClient)
+                    return (MdiClient)c;
+            }
+            return null;
+        }
 
         public void AddMdiChild()
         {
