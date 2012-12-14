@@ -160,7 +160,7 @@ namespace Svekla
         public void UpdatePingDelay()
         {
             PingReply reply = serverPing.Send(serverHost, GlobalSettings.Instance.PingTimeout);
-            if (reply.Status != IPStatus.Success) OnConnectionError();
+            if (reply.Status != IPStatus.Success) OnConnectionError(new Exception("Ping Status: " + reply.Status.ToString()));
 
             try
             {
@@ -185,9 +185,9 @@ namespace Svekla
                     if (clientCommandSupported) SyncClientList(clients);
                 }));
             }
-            catch
+            catch (Exception x)
             {
-                OnConnectionError();
+                OnConnectionError(x);
             }
 
         }
@@ -552,6 +552,7 @@ namespace Svekla
                         {
                             OnClientListError(locale.GetString("RBF_ClientNotSupported"));
                         }
+                        else { clientCommandSupported = true; }
                     }
                     else
                     {
@@ -609,7 +610,7 @@ namespace Svekla
             olvClients.RefreshObjects(clients);
         }
 
-        private void OnConnectionError()
+        private void OnConnectionError(Exception ex)
         {
             timer.Enabled = false;
             if (MessageBox.Show(locale.GetString("RBF_ConnectionInterrupted"), "", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error) == System.Windows.Forms.DialogResult.Cancel)
