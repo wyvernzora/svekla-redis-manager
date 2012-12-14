@@ -178,4 +178,7 @@ Pussible reasons:
   <data name="RBF_ClientFetchFail" xml:space="preserve">
     <value>Cannot Get Client List!</value>
   </data>
+  <data name="RBF_ClientNotSupported" xml:space="preserve">
+    <value>Client list feature not supported, please update Redis Server!</value>
+  </data>
 </root>

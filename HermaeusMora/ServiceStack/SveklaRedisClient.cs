@@ -4,11 +4,16 @@ using System.Linq;
 using System.Text;
 using ServiceStack.Redis;
 using ServiceStack.Text;
+using Svekla.Utilities; 
 
 namespace Svekla.ServiceStack
 {
     public class SveklaRedisClient : RedisClient
     {
+        // fields
+        private Version _ver = null;
+
+        // constructors
         public SveklaRedisClient(String host)
             : base(host) { }
         public SveklaRedisClient(String host, Int32 port)
@@ -18,12 +23,18 @@ namespace Svekla.ServiceStack
         public SveklaRedisClient(Uri uri)
             : base(uri) { }
 
- 
-        public void JMA()
-        {
-            String str = SendExpectString(RedisCommandsEx.CLIENT, "LIST".ToUtf8Bytes());
-        }
 
+        // properties
+        public Version ServerVersion
+        {
+            get
+            {
+                if (_ver == null)
+                    _ver = new Version(Info.GetOrDefault("redis_version", "1.0.0"));
+                return _ver;
+            }
+        }
+        
         public RedisClientInfo[] GetClientList()
         {
             List<RedisClientInfo> rcis = new List<RedisClientInfo>();

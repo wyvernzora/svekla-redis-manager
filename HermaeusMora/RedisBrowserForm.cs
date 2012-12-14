@@ -548,24 +548,9 @@ namespace Svekla
                         olvKeys.VirtualListDataSource = new RedisKeysDataSource(keys);
 
                         // check if client command is supported
-                        try
+                        if (redisClient.ServerVersion < Version.Parse("2.4.0"))
                         {
-                            RedisClientInfo[] rci = redisClient.GetClientList();
-                            throw new Exception();
-                            clientCommandSupported = true;
-                        }
-                        catch (Exception ex)
-                        {
-                            clientCommandSupported = false;
-
-                            TextOverlay to = new TextOverlay();
-                            to.Text = String.Format("{0}\n{1}", locale.GetString("RBF_ClientFetchFail"), ex.Message);
-                            to.TextColor = Color.DarkRed;
-                            to.Alignment = ContentAlignment.MiddleCenter;
-
-                            olvClients.OverlayText = to;
-                            olvClients.ContextMenu = null;
-                            olvClients.ShowOverlays();
+                            OnClientListError(locale.GetString("RBF_ClientNotSupported"));
                         }
                     }
                     else
@@ -591,6 +576,20 @@ namespace Svekla
                 bw.Dispose();
                 loaderCancelling = true;
             }
+        }
+
+        private void OnClientListError(String err)
+        {
+            clientCommandSupported = false;
+
+            TextOverlay to = new TextOverlay();
+            to.Text = String.Format("{0}\n{1}", locale.GetString("RBF_ClientFetchFail"), err);
+            to.TextColor = Color.DarkRed;
+            to.Alignment = ContentAlignment.MiddleCenter;
+
+            olvClients.OverlayText = to;
+            olvClients.ContextMenu = null;
+            olvClients.ShowOverlays();
         }
 
         private void SyncClientList(RedisClientInfo[] clients)

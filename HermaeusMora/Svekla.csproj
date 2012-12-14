@@ -104,6 +104,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Locale.resx</DependentUpon>
     </Compile>
+    <Compile Include="ServiceStack\CommandNotSupportedException.cs" />
     <Compile Include="ServiceStack\RedisClientInfo.cs" />
     <Compile Include="ServiceStack\RedisCommandsEx.cs" />
     <Compile Include="ServiceStack\SveklaRedisClient.cs" />

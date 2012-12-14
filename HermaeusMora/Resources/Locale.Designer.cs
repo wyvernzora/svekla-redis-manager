@@ -97,6 +97,15 @@ namespace Svekla.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Client list feature not supported, please update Redis Server!.
+        /// </summary>
+        internal static string RBF_ClientNotSupported {
+            get {
+                return ResourceManager.GetString("RBF_ClientNotSupported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Connect.
         /// </summary>
         internal static string RBF_Connect {
