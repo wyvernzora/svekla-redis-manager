@@ -175,7 +175,7 @@ Pussible reasons:
  - Client received unexpected data
  - Client connection was killed</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value> </value>
+  <data name="RBF_ClientFetchFail" xml:space="preserve">
+    <value>Cannot Get Client List!</value>
   </data>
 </root>

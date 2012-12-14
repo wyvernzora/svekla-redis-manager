@@ -134,6 +134,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="UI\Nightingale\WizardStateManager.cs" />
+    <Compile Include="Utilities\Extensions.cs" />
     <Compile Include="Utilities\RedisDatabaseCache.cs" />
     <Compile Include="Utilities\RedisKeysDataSource.cs" />
     <Compile Include="Utilities\RedisPoke.cs" />

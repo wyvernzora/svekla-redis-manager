@@ -188,6 +188,15 @@ namespace Svekla.UI.Components
             }
         }
 
+        public void Clear()
+        {
+            if (texture != null)
+            {
+                this.frontBuffer = new Int32[texture.Width * texture.Height];
+                this.backBuffer = new Int32[frontBuffer.Length];
+            }
+        }
+
         #endregion
 
         #region Utility Methods

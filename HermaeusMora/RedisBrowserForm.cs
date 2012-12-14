@@ -14,9 +14,9 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.IO;
-using Svekla.Utilities;
 using BrightIdeasSoftware;
 using Svekla.ServiceStack;
+using Svekla.Utilities;
 
 namespace Svekla
 {
@@ -45,6 +45,7 @@ namespace Svekla
         // Redis Connection
         private SveklaRedisClient redisClient;
         private List<RedisClientInfo> clientList;
+        private Boolean clientCommandSupported = false;
 
         // Async Loading
         private BackgroundWorker asyncLoader;
@@ -166,20 +167,22 @@ namespace Svekla
                 Dictionary<String, String> srvInfo = redisClient.Info;
                 Int32 srvDbSize = redisClient.DbSize;
                 DateTime lSave = new DateTime(1970, 1, 1, 0, 0, 0, 0);
-                lSave.AddSeconds(Int32.Parse(srvInfo["last_save_time"]));
+                lSave.AddSeconds(Int32.Parse(srvInfo.GetOrDefault("last_save_time", "0")));
 
-                RedisClientInfo[] clients = redisClient.GetClientList();
+                RedisClientInfo[] clients = null;
+                if (clientCommandSupported) clients = redisClient.GetClientList();
+               
                 this.BeginInvoke(new Action(() =>
                 {
                     this.Text = String.Format(locale.GetString("RBF_TitleConnected"), serverHost, serverPort, reply.RoundtripTime);
 
-                    lblSmVersion.Text = String.Format("Redis {0} ({1}bit)", srvInfo["redis_version"], srvInfo["arch_bits"]);
+                    lblSmVersion.Text = String.Format("Redis {0} ({1}bit)", srvInfo.GetOrDefault("redis_version", "??"), srvInfo.GetOrDefault("arch_bits", "??"));
                     lblSmDbSize.Text = String.Format("{0} Keys", srvDbSize);
-                    lblSmMem.Text = String.Format("{0}/{1}", srvInfo["used_memory_human"], srvInfo["used_memory_peak_human"]);
+                    lblSmMem.Text = String.Format("{0}/{1}", srvInfo.GetOrDefault("used_memory_human", "??"), srvInfo.GetOrDefault("used_memory_peak_human", "??"));
                     lblSmLastSave.Text = lSave.ToString();
-                    lblSmClients.Text = srvInfo["connected_clients"];
+                    lblSmClients.Text = srvInfo.GetOrDefault("connected_clients", "??");
 
-                    SyncClientList(clients);
+                    if (clientCommandSupported) SyncClientList(clients);
                 }));
             }
             catch
@@ -409,8 +412,6 @@ namespace Svekla
             else
                 redisClient = new SveklaRedisClient(host, port);
 
-            //redisClient.JMA();
-            RedisClientInfo[] rci = redisClient.GetClientList();
 
             // update ping
             UpdatePingDelay();
@@ -420,6 +421,7 @@ namespace Svekla
 
             // pull data
             PullData();
+
         }
 
         #endregion
@@ -544,6 +546,27 @@ namespace Svekla
 
                         //olvKeys.SetObjects(keys);
                         olvKeys.VirtualListDataSource = new RedisKeysDataSource(keys);
+
+                        // check if client command is supported
+                        try
+                        {
+                            RedisClientInfo[] rci = redisClient.GetClientList();
+                            throw new Exception();
+                            clientCommandSupported = true;
+                        }
+                        catch (Exception ex)
+                        {
+                            clientCommandSupported = false;
+
+                            TextOverlay to = new TextOverlay();
+                            to.Text = String.Format("{0}\n{1}", locale.GetString("RBF_ClientFetchFail"), ex.Message);
+                            to.TextColor = Color.DarkRed;
+                            to.Alignment = ContentAlignment.MiddleCenter;
+
+                            olvClients.OverlayText = to;
+                            olvClients.ContextMenu = null;
+                            olvClients.ShowOverlays();
+                        }
                     }
                     else
                     {
@@ -609,5 +632,11 @@ namespace Svekla
             redisClient.KillClientConnection(rci);
 
         }
+
+        #region Utility Methods
+
+
+
+        #endregion
     }
 }

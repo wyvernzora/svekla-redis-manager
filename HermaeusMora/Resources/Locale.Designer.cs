@@ -88,6 +88,15 @@ namespace Svekla.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot Get Client List!.
+        /// </summary>
+        internal static string RBF_ClientFetchFail {
+            get {
+                return ResourceManager.GetString("RBF_ClientFetchFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Connect.
         /// </summary>
         internal static string RBF_Connect {
@@ -223,15 +232,6 @@ namespace Svekla.Resources {
         internal static string RBF_TitleConnected {
             get {
                 return ResourceManager.GetString("RBF_TitleConnected", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to  .
-        /// </summary>
-        internal static string String1 {
-            get {
-                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
     }

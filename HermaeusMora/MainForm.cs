@@ -18,7 +18,7 @@ namespace Svekla
         public MainForm()
         {
             InitializeComponent();
-            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
+            //System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
            
             // Event handlers
             this.MdiChildActivate += OnChildActivated;

@@ -120,7 +120,15 @@ namespace Svekla.UI.Controls
         public Boolean Animation
         {
             get { return t.Enabled; }
-            set { t.Enabled = value; }
+            set
+            {
+                t.Enabled = value;
+                if (!value)
+                {
+                    this.CLear();
+                    this.Invalidate();
+                }
+            }
         }
 
         public Boolean Raindrops
@@ -150,6 +158,14 @@ namespace Svekla.UI.Controls
             Point lc = new Point(x, y);
             lc = Translate(lc);
             effect.Splash(lc.X, lc.Y, radius);
+        }
+
+        public void CLear()
+        {
+            effect.Clear();
+            cellPulseCount = new int[] { 0, 15, 30 };
+            cellPulse = new Double[] { INIT_PULSE, INIT_PULSE, INIT_PULSE };
+            fc = 0;
         }
 
         #region Rendering Frame
